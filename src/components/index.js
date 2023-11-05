@@ -1,0 +1,11 @@
+export { default as Header } from "./Header";
+export { default as ProductElement } from "./ProductElement";
+export { default as Footer } from "./Footer";
+export { default as Hero } from "./Hero";
+export { default as Stats } from "./Stats";
+export { default as SectionTitle } from "./SectionTitle";
+export { default as Pagination } from "./Pagination";
+export { default as CartItem } from "./CartItem";
+export { default as CartItemsList } from "./CartItemsList";
+export { default as CartTotals } from "./CartTotals";
+export { default as QuantityInput } from "./QuantityInput";
