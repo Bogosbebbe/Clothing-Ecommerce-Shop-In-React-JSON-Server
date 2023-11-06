@@ -4,4 +4,4 @@
 
 1. You need first to write: npm install
 2. After that: npm run dev
-3. When you do it, you need to run json-server on port 8080. Just write in other terminal: json-server --watch ./data/db.json --port 8080
+3. When you do it, you need to run json-server on port 8080. Just write in other terminal: json-server --watch src/data/db.json --port 8080

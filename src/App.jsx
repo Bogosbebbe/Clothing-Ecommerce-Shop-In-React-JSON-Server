@@ -9,9 +9,11 @@ import {
   Register,
   Shop,
   SingleProduct,
+  Wishlist,
 } from "./pages";
 import { landingLoader } from "./pages/Landing";
 import { singleProductLoader } from "./pages/SingleProduct";
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const router = createBrowserRouter([
@@ -57,6 +59,10 @@ const router = createBrowserRouter([
         path: "cart",
         element: <Cart />,
       },
+      {
+        path: "wishlist",
+        element: <Wishlist />,
+      },
     ],
   },
 ]);
@@ -65,6 +71,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      <ToastContainer position='top-center' />
     </>
   );
 }

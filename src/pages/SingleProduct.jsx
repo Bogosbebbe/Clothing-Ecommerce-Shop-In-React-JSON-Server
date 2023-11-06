@@ -14,6 +14,7 @@ import parse from "html-react-parser";
 import { nanoid } from "nanoid";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../features/cart/cartSlice";
+import { addToWishlist } from "../features/wishlist/wishlistSlice";
 
 export const singleProductLoader = async ({ params }) => {
   const { id } = params;
@@ -27,6 +28,7 @@ const SingleProduct = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [size, setSize] = useState(0);
+  const dispatch = useDispatch();
   const [rating, setRating] = useState([
     "empty star",
     "empty star",
@@ -35,7 +37,7 @@ const SingleProduct = () => {
     "empty star",
   ]);
 
-  const dispatch = useDispatch();
+ 
 
   const { productData } = useLoaderData();
 
@@ -110,7 +112,8 @@ const SingleProduct = () => {
               <FaCartShopping className="text-xl mr-1" />
               Add to cart
             </button>
-            <button className="btn bg-blue-600 hover:bg-blue-500 text-white">
+            
+            <button className="btn bg-blue-600 hover:bg-blue-500 text-white" onClick={() => dispatch(addToWishlist(product))}>
               <FaHeart className="text-xl mr-1" />
               Add to wishlist
             </button>

@@ -1,7 +1,6 @@
 
 
 .selected-products-grid{
-    padding: 0px 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }

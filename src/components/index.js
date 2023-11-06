@@ -11,3 +11,4 @@ export { default as CartTotals } from "./CartTotals";
 export { default as QuantityInput } from "./QuantityInput";
 export { default as SelectSize } from "./SelectSize";
 export { default as SingleProductRating } from "./SingleProductRating";
+export { default as WishItem } from "./WishItem";

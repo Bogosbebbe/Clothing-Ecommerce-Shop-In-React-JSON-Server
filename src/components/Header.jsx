@@ -52,9 +52,9 @@ const Header = () => {
               />
             </svg>
           </button>
-          <button className="btn btn-ghost btn-circle">
+          <Link to="/wishlist" className="btn btn-ghost btn-circle">
             <FaHeart className="text-xl" />
-          </button>
+          </Link>
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <div className="indicator">
