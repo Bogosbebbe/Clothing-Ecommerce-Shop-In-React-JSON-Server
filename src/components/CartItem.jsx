@@ -1,9 +1,9 @@
 import { useDispatch } from "react-redux";
-import { updateCartAmount } from "../features/cart/cartSlice";
+import { removeItem, updateCartAmount } from "../features/cart/cartSlice";
 
 
 const CartItem = ({ cartItem }) => {
-  const { id, title, price, image, amount, brandName } =
+  const { id, title, price, image, amount, brandName, selectedSize } =
     cartItem;
 
     const dispatch = useDispatch();
@@ -25,7 +25,10 @@ const CartItem = ({ cartItem }) => {
         <h3 className="capitalize font-medium">{title}</h3>
         {/* COMPANY */}
         <h4 className="mt-2 capitalize text-sm text-neutral-content">
-          { brandName }
+          Brand: { brandName }
+        </h4>
+        <h4 className="mt-2 capitalize text-sm text-neutral-content">
+          Size: { selectedSize }
         </h4>
       </div>
       <div className="sm:ml-12">
@@ -45,6 +48,7 @@ const CartItem = ({ cartItem }) => {
         {/* REMOVE */}
         <button
           className="mt-2 link link-warning link-hover text-sm"
+          onClick={()=> dispatch(removeItem(id))}
         >
           remove
         </button>

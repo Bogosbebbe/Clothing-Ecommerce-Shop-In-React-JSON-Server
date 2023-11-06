@@ -1,17 +1,10 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 
-const QuantityInput = React.memo(({ onQuantityChange }) => {
-    const [quantity, setQuantity] = useState(1);
+const QuantityInput = ({ quantity, setQuantity }) => {
 
-    const handleInputChange = (event) => {
-      const newQuantity = event.target.value;
-      setQuantity(newQuantity);
-  
-      // Call the callback function with the new quantity
-      onQuantityChange(newQuantity);
-    };
+
     
   return (
     <>
@@ -40,6 +33,6 @@ const QuantityInput = React.memo(({ onQuantityChange }) => {
       </button>
     </>
   );
-});
+};
 
-export default QuantityInput;
+export default memo(QuantityInput);

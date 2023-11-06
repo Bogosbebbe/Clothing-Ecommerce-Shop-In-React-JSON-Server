@@ -7,11 +7,10 @@ const ProductElement = ({ id, title, image, rating, price, brandName }) => {
   const product = {
     id, title, image, rating, price, brandName, amount: 1
   };
-  const dispatch = useDispatch();
   return (
     <div className="max-w-2xl">
       <div className="shadow-md rounded-lg max-w-sm bg-gray-800 border-gray-700">
-        <Link to={`/shop/product/${id}`}>
+        <Link to={`/shop/product/${id}`} onClick={() => window.scrollTo(0, 0)}>
           <img
             className="rounded-t-lg p-8"
             src={`https://${image}`}
@@ -26,12 +25,6 @@ const ProductElement = ({ id, title, image, rating, price, brandName }) => {
           </Link>
           <div className="flex items-center justify-between">
             <span className="text-3xl font-bold text-white">${price}</span>
-            <button
-              className="text-white focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
-              onClick={() => dispatch(addToCart(product))}
-            >
-              Add to cart
-            </button>
           </div>
         </div>
       </div>

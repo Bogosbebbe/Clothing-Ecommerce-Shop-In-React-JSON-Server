@@ -1,6 +1,11 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { QuantityInput, SectionTitle } from "../components";
+import {
+  QuantityInput,
+  SectionTitle,
+  SelectSize,
+  SingleProductRating,
+} from "../components";
 import { FaHeart } from "react-icons/fa6";
 import { FaCartShopping } from "react-icons/fa6";
 
@@ -21,7 +26,7 @@ export const singleProductLoader = async ({ params }) => {
 const SingleProduct = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
-
+  const [size, setSize] = useState(0);
   const [rating, setRating] = useState([
     "empty star",
     "empty star",
@@ -35,23 +40,19 @@ const SingleProduct = () => {
   const { productData } = useLoaderData();
 
   const product = {
-    id: productData?.id,
+    id: productData?.id + size,
     title: productData?.name,
     image: productData?.imageUrl,
     rating: productData?.rating,
     price: productData?.price?.current?.value,
     brandName: productData?.brandName,
     amount: quantity,
+    selectedSize: size || productData?.availableSizes[0],
   };
 
   for (let i = 0; i < productData?.rating; i++) {
     rating[i] = "full star";
   }
-
-  
-  const handleQuantityChange = (newQuantity) => {
-    setQuantity(newQuantity);
-  };
 
   return (
     <>
@@ -77,28 +78,7 @@ const SingleProduct = () => {
         </div>
         <div className="single-product-content flex flex-col gap-y-5 max-lg:mt-2">
           <h2 className="text-5xl max-sm:text-3xl">{productData?.name}</h2>
-          <div className="rating">
-            {rating[0] === "empty star"
-              ? parse("<p className='text-2xl'>No rating</p>")
-              : rating.map((item) => {
-                  return (
-                    <input
-                      type="button"
-                      key={nanoid()}
-                      name="rating-1"
-                      className={
-                        item === "full star"
-                          ? `mask mask-star bg-orange-400`
-                          : `mask mask-star bg-gray-400`
-                      }
-                    />
-                  );
-                })}
-            {rating[0] === "full star" &&
-              parse(
-                `<p className='text-xl ml-2'>(${productData?.totalReviewCount} reviews)</p>`
-              )}
-          </div>
+          <SingleProductRating rating={rating} productData={productData} />
           <p className="text-3xl text-error">
             ${productData?.price?.current?.value}
           </p>
@@ -106,16 +86,11 @@ const SingleProduct = () => {
             {parse(productData?.description)}
           </div>
           <div className="text-2xl">
-            <select className="select select-info w-full max-w-xs select-md">
-              <option disabled className="text-lg">
-                Pick your size
-              </option>
-              {productData?.availableSizes.map((item) => (
-                <option value={item} key={nanoid()} className="text-xl">
-                  {item}
-                </option>
-              ))}
-            </select>
+            <SelectSize
+              sizeList={productData?.availableSizes}
+              size={size}
+              setSize={setSize}
+            />
           </div>
           <div>
             <label htmlFor="Quantity" className="sr-only">
@@ -124,7 +99,7 @@ const SingleProduct = () => {
             </label>
 
             <div className="flex items-center gap-1">
-              <QuantityInput onQuantityChange={handleQuantityChange} />
+              <QuantityInput quantity={quantity} setQuantity={setQuantity} />
             </div>
           </div>
           <div className="flex flex-row gap-x-2 max-sm:flex-col max-sm:gap-x">

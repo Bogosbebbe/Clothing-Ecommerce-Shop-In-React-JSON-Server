@@ -44,7 +44,7 @@ const cartSlice = createSlice({
                 state.amount += action.payload.amount;
             }else{
                 state.amount += action.payload.amount;
-                cartItem.amount++;
+                cartItem.amount += action.payload.amount;
             }
 
         }
