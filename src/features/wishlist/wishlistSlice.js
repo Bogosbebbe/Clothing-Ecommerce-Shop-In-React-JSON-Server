@@ -8,7 +8,7 @@ const initialState = {
 };
 
 const wishlistSlice = createSlice({
-  name: "cart",
+  name: "wishlist",
   initialState,
   reducers: {
     clearWishlist: (state) => {
@@ -29,28 +29,21 @@ const wishlistSlice = createSlice({
       toast.success("Product added to the wishlist!");
     },
     calculateWishlistAmount: (state) => {
-        let amount = 0;
-        state.wishItems.forEach(item => {
-            amount += item.amount;
-        });
-        state.amount = amount;
+      let amount = 0;
+      state.wishItems.forEach((item) => {
+        amount += item.amount;
+      });
+      state.amount = amount;
     },
-    isInWishlist: (state, action) => {
-      const wishItem = state.wishItems.find(
-        (item) => item.id === action.payload.id
-      );
-
-      if(wishItem){
-        return true;
-      }else{
-        return false;
-      }
-    }
   },
 });
 
 // console.log(cartSlice);
-export const { clearWishlist, removeFromWishlist, addToWishlist, calculateWishlistAmount, isInWishlist } =
-wishlistSlice.actions;
+export const {
+  clearWishlist,
+  removeFromWishlist,
+  addToWishlist,
+  calculateWishlistAmount,
+} = wishlistSlice.actions;
 
 export default wishlistSlice.reducer;

@@ -13,6 +13,7 @@ import { useSelector } from "react-redux";
 const Header = () => {
 
   const { amount } = useSelector((state) => state.cart);
+  const { total } = useSelector((state) => state.cart);
 
   return (
     <>
@@ -80,7 +81,7 @@ const Header = () => {
             >
               <div className="card-body">
                 <span className="font-bold text-lg">{ amount } Items</span>
-                <span className="text-info">Subtotal: $999</span>
+                <span className="text-info">Subtotal: ${ total }</span>
                 <div className="card-actions">
                   <Link to="/cart" className="btn bg-blue-600 btn-block text-white hover:bg-blue-500">
                     View cart

@@ -13,8 +13,7 @@ import {
 } from "./pages";
 import { landingLoader } from "./pages/Landing";
 import { singleProductLoader } from "./pages/SingleProduct";
-import { ToastContainer, toast } from 'react-toastify';
-
+import { ToastContainer, toast } from "react-toastify";
 
 const router = createBrowserRouter([
   {
@@ -71,7 +70,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      <ToastContainer position='top-center' />
+      <ToastContainer position="top-center" />
     </>
   );
 }

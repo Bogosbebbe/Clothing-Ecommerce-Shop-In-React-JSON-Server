@@ -12,9 +12,11 @@ import { FaCartShopping } from "react-icons/fa6";
 import { useLoaderData } from "react-router-dom";
 import parse from "html-react-parser";
 import { nanoid } from "nanoid";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../features/cart/cartSlice";
-import { addToWishlist } from "../features/wishlist/wishlistSlice";
+import {
+  addToWishlist, removeFromWishlist,
+} from "../features/wishlist/wishlistSlice";
 
 export const singleProductLoader = async ({ params }) => {
   const { id } = params;
@@ -28,6 +30,7 @@ const SingleProduct = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [size, setSize] = useState(0);
+  const { wishItems } = useSelector((state) => state.wishlist);
   const dispatch = useDispatch();
   const [rating, setRating] = useState([
     "empty star",
@@ -36,8 +39,6 @@ const SingleProduct = () => {
     "empty star",
     "empty star",
   ]);
-
- 
 
   const { productData } = useLoaderData();
 
@@ -50,7 +51,9 @@ const SingleProduct = () => {
     brandName: productData?.brandName,
     amount: quantity,
     selectedSize: size || productData?.availableSizes[0],
+    isInWishList: wishItems.find(item => item.id === productData?.id + size) !== undefined 
   };
+console.log(product);
 
   for (let i = 0; i < productData?.rating; i++) {
     rating[i] = "full star";
@@ -112,11 +115,21 @@ const SingleProduct = () => {
               <FaCartShopping className="text-xl mr-1" />
               Add to cart
             </button>
-            
-            <button className="btn bg-blue-600 hover:bg-blue-500 text-white" onClick={() => dispatch(addToWishlist(product))}>
+
+            { product?.isInWishList ? (<button
+              className="btn bg-blue-600 hover:bg-blue-500 text-white"
+              onClick={() => dispatch(removeFromWishlist(product?.id))}
+            >
+              <FaHeart className="text-xl mr-1" />
+              Remove from wishlist
+            </button>) : (<button
+              className="btn bg-blue-600 hover:bg-blue-500 text-white"
+              onClick={() => dispatch(addToWishlist(product))}
+            >
               <FaHeart className="text-xl mr-1" />
               Add to wishlist
-            </button>
+            </button>) }
+            
           </div>
           <div className="other-product-info flex flex-col gap-x-2">
             <div className="badge bg-gray-700 badge-lg font-bold text-white">

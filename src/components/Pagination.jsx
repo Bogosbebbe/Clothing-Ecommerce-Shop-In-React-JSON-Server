@@ -2,7 +2,7 @@ import React from "react";
 import { FaCircleArrowLeft } from "react-icons/fa6";
 import { FaCircleArrowRight } from "react-icons/fa6";
 
-const Pagination = ({currentPage, setCurrentPage}) => {
+const Pagination = ({currentPage, setCurrentPage, products}) => {
   
 
   return (
@@ -28,7 +28,7 @@ const Pagination = ({currentPage, setCurrentPage}) => {
           className="join-item btn text-4xl flex justify-center"
           onClick={() => {
 
-            if(currentPage === 14){
+            if(products.length < 10){
               return;
             }
 

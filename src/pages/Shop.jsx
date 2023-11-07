@@ -39,7 +39,7 @@ const Shop = () => {
           />
         ))}
       </div>
-      <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} products={products} />
     </>
   );
 };
