@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaHeadphones } from "react-icons/fa6";
 import { FaRegEnvelope } from "react-icons/fa6";
@@ -6,14 +6,20 @@ import { HiMiniBars3BottomLeft } from "react-icons/hi2";
 import { FaHeart } from "react-icons/fa6";
 import { AiFillShopping } from "react-icons/ai";
 
-
 import "../styles/Header.css";
 import { useSelector } from "react-redux";
 
 const Header = () => {
-
   const { amount } = useSelector((state) => state.cart);
   const { total } = useSelector((state) => state.cart);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [ id, setId ] = useState(sessionStorage.getItem("id"));
+  
+  const loginState = useSelector((state) => state.auth.isLoggedIn);
+
+  useEffect(() => {
+    setIsLoggedIn(loginState);
+  }, [loginState]);
 
   return (
     <>
@@ -22,7 +28,7 @@ const Header = () => {
           <li>
             <FaHeadphones className="text-2xl max-sm:text-lg" />
             <span className="text-2xl max-sm:text-lg">+381 61/123-456</span>
-        </li>
+          </li>
           <li>
             <FaRegEnvelope className="text-2xl max-sm:text-lg" />{" "}
             <span className="text-2xl max-sm:text-lg">support@test.com</span>
@@ -31,8 +37,11 @@ const Header = () => {
       </div>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <Link to="/" className="btn btn-ghost normal-case text-2xl font-black">
-          <AiFillShopping />
+          <Link
+            to="/"
+            className="btn btn-ghost normal-case text-2xl font-black"
+          >
+            <AiFillShopping />
             Kuzma Clothing Shop
           </Link>
         </div>
@@ -80,10 +89,13 @@ const Header = () => {
               className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow"
             >
               <div className="card-body">
-                <span className="font-bold text-lg">{ amount } Items</span>
-                <span className="text-info">Subtotal: ${ total }</span>
+                <span className="font-bold text-lg">{amount} Items</span>
+                <span className="text-info">Subtotal: ${total.toFixed(2)}</span>
                 <div className="card-actions">
-                  <Link to="/cart" className="btn bg-blue-600 btn-block text-white hover:bg-blue-500">
+                  <Link
+                    to="/cart"
+                    className="btn bg-blue-600 btn-block text-white hover:bg-blue-500"
+                  >
                     View cart
                   </Link>
                 </div>
@@ -151,16 +163,26 @@ const Header = () => {
                   Contact
                 </NavLink>
               </li>
-              <li className="text-xl">
-                <NavLink className="hover:text-gray-100" to="/login">
-                  Login
-                </NavLink>
-              </li>
-              <li className="text-xl">
-                <NavLink className="hover:text-gray-100" to="/register">
-                  Register
-                </NavLink>
-              </li>
+              {!isLoggedIn ? (
+                <>
+                  <li className="text-xl">
+                    <NavLink className="hover:text-gray-100" to="/login">
+                      Login
+                    </NavLink>
+                  </li>
+                  <li className="text-xl">
+                    <NavLink className="hover:text-gray-100" to="/register">
+                      Register
+                    </NavLink>
+                  </li>
+                </>
+              ) : (
+                <li className="text-xl">
+                  <NavLink className="hover:text-gray-100" to="/login">
+                    Logout
+                  </NavLink>
+                </li>
+              )}
             </ul>
           </div>
         </div>
@@ -178,12 +200,19 @@ const Header = () => {
           <NavLink className="hover:text-gray-100" to="/contact">
             Contact
           </NavLink>
-          <NavLink className="hover:text-gray-100" to="/login">
+          {!isLoggedIn ? (
+            <>
+            <NavLink className="hover:text-gray-100" to="/login">
             Login
           </NavLink>
           <NavLink className="hover:text-gray-100" to="/register">
             Register
           </NavLink>
+            </>
+          ) : (<NavLink className="hover:text-gray-100" to="/login">
+          Logout
+        </NavLink>)}
+          
         </div>
       </div>
     </>

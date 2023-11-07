@@ -4596,39 +4596,11 @@
   ],
   "user": [
     {
-      "id": "eKIUrA0n5hait2BvmERh9",
+      "id": "pqj6PCAgntO1J66AJIMhg",
       "name": "Aleksandar",
       "lastname": "Kuzmanovic",
-      "email": "kuzmanoviczoran73@gmail.com",
-      "password": "123321"
-    },
-    {
-      "id": "xVGgU7BQAQOzW6szTljOa",
-      "name": "Djole",
-      "lastname": "Djodjevic",
-      "email": "djole@gmail.com",
-      "password": "123321"
-    },
-    {
-      "id": "E2rYuFS1UEl1XhdjOhPH1",
-      "name": "Kuzma",
-      "lastname": "Kuzmanovic",
-      "email": "kuzma@gmail.com",
-      "password": "123"
-    },
-    {
-      "id": "wpxttcH23merWse1MC8zT",
-      "name": "Milos",
-      "lastname": "Milosevic",
-      "email": "milos@gmail.com",
-      "password": "123"
-    },
-    {
-      "id": "kn1kakbOd4QjeD1gWIiuO",
-      "name": "Ivan",
-      "lastname": "Ivanovic",
-      "email": "ivan@gmail.com",
-      "password": "123456"
+      "email": "aca@gmail.com",
+      "password": "1233214321"
     }
   ]
 }

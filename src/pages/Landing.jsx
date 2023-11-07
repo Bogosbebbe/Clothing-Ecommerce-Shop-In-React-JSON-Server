@@ -1,22 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Landing.css";
 import { Hero, ProductElement, Stats } from "../components";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-
 export const landingLoader = async () => {
-  
-    const response = await axios(`http://localhost:8080/products?_page=1&_limit=8`);
-    const data = response.data;
-    
-    
-    return { products: data };
-  
+  const response = await axios(
+    `http://localhost:8080/products?_page=1&_limit=8`
+  );
+  const data = response.data;
+
+  return { products: data };
 };
 
 const Landing = () => {
   const { products } = useLoaderData();
+  const navigate = useNavigate();
+
   return (
     <main>
       <Hero />
