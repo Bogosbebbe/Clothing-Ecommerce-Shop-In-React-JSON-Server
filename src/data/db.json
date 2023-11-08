@@ -4596,10 +4596,12 @@
   ],
   "user": [
     {
-      "id": "pqj6PCAgntO1J66AJIMhg",
+      "id": "UPO_NlmVldNggokzjzj6K",
       "name": "Aleksandar",
       "lastname": "Kuzmanovic",
-      "email": "aca@gmail.com",
+      "email": "kuzma@gmail.com",
+      "phone": "061123321",
+      "adress": "Marka Markovica 5",
       "password": "1233214321"
     }
   ]

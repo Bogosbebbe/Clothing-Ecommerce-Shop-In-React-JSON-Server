@@ -9,7 +9,6 @@ const authSlice = createSlice({
   initialState,
   reducers: {
     loginUser: (state) => {
-        console.log("LOGIN CALLED");
       state.isLoggedIn = true;
     },
     logoutUser: (state) => {

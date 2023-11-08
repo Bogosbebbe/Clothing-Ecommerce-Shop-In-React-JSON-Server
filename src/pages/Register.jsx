@@ -10,12 +10,14 @@ const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const [phone, setPhone] = useState("");
+  const [adress, setAdress] = useState("");
 
   const navigate = useNavigate();
 
   const isValidate = () => {
     let isProceed = true;
-    let errorMessage = "Please enter the value in ";
+    let errorMessage = "";
 
     if (name.length === 0) {
       isProceed = false;
@@ -26,6 +28,12 @@ const Register = () => {
     } else if (email.length === 0) {
       isProceed = false;
       errorMessage = "Please enter the value in email field";
+    } else if (phone.length < 4) {
+      isProceed = false;
+      errorMessage = "Phone must be longer than 3 characters";
+    }else if (adress.length < 4) {
+      isProceed = false;
+      errorMessage = "Adress must be longer than 3 characters";
     } else if (password.length < 6) {
       isProceed = false;
       errorMessage = "Please enter a password longer than 5 characters";
@@ -37,7 +45,7 @@ const Register = () => {
       errorMessage = "Passwords must match";
     }
 
-    if(!isProceed){
+    if (!isProceed) {
       toast.warn(errorMessage);
     }
 
@@ -46,21 +54,21 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    let regObj = { id: nanoid(), name, lastname, email, password };
+    let regObj = { id: nanoid(), name, lastname, email, phone, adress, password };
 
     if (isValidate()) {
-    fetch("http://localhost:8080/user", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(regObj),
-    })
-      .then((res) => {
-        toast.success("Registration Successful");
-        navigate("/login");
+      fetch("http://localhost:8080/user", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(regObj),
       })
-      .catch((err) => {
-        toast.error("Failed: " + err.message);
-      });
+        .then((res) => {
+          toast.success("Registration Successful");
+          navigate("/login");
+        })
+        .catch((err) => {
+          toast.error("Failed: " + err.message);
+        });
     }
   };
   return (
@@ -94,6 +102,22 @@ const Register = () => {
                 className="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                required={true}
+              />
+              <label className="font-semibold text-sm pb-1 block">Phone</label>
+              <input
+                type="tel"
+                className="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                required={true}
+              />
+              <label className="font-semibold text-sm pb-1 block">Adress</label>
+              <input
+                type="text"
+                className="border rounded-lg px-3 py-2 mt-1 mb-5 text-sm w-full"
+                value={adress}
+                onChange={(e) => setAdress(e.target.value)}
                 required={true}
               />
               <label className="font-semibold text-sm pb-1 block">
