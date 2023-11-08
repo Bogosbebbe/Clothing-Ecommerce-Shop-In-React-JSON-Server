@@ -13,8 +13,8 @@ const Header = () => {
   const { amount } = useSelector((state) => state.cart);
   const { total } = useSelector((state) => state.cart);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [ id, setId ] = useState(sessionStorage.getItem("id"));
-  
+  const [id, setId] = useState(localStorage.getItem("id"));
+
   const loginState = useSelector((state) => state.auth.isLoggedIn);
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 max-w-7xl mx-auto">
         <div className="flex-1">
           <Link
             to="/"
@@ -102,27 +102,31 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-              <div className="w-10 rounded-full">
-                <img src="/src/assets/user profile photo.jpg" />
-              </div>
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <Link to="/user-profile" className="justify-between">Profile</Link>
-              </li>
-              <li>
-                <a>Settings</a>
-              </li>
-              <li>
-                <a>Logout</a>
-              </li>
-            </ul>
-          </div>
+          {isLoggedIn && (
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                <div className="w-10 rounded-full">
+                  <img src="/src/assets/user profile photo.jpg" />
+                </div>
+              </label>
+              <ul
+                tabIndex={0}
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <Link to="/user-profile" className="justify-between">
+                    Profile
+                  </Link>
+                </li>
+                <li>
+                  <a>Settings</a>
+                </li>
+                <li>
+                  <Link to="/login">Logout</Link>
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
       </div>
 
@@ -163,7 +167,7 @@ const Header = () => {
                   Contact
                 </NavLink>
               </li>
-              {!isLoggedIn ? (
+              {!isLoggedIn && (
                 <>
                   <li className="text-xl">
                     <NavLink className="hover:text-gray-100" to="/login">
@@ -176,12 +180,6 @@ const Header = () => {
                     </NavLink>
                   </li>
                 </>
-              ) : (
-                <li className="text-xl">
-                  <NavLink className="hover:text-gray-100" to="/login">
-                    Logout
-                  </NavLink>
-                </li>
               )}
             </ul>
           </div>
@@ -200,19 +198,16 @@ const Header = () => {
           <NavLink className="hover:text-gray-100" to="/contact">
             Contact
           </NavLink>
-          {!isLoggedIn ? (
+          {!isLoggedIn && (
             <>
-            <NavLink className="hover:text-gray-100" to="/login">
-            Login
-          </NavLink>
-          <NavLink className="hover:text-gray-100" to="/register">
-            Register
-          </NavLink>
+              <NavLink className="hover:text-gray-100" to="/login">
+                Login
+              </NavLink>
+              <NavLink className="hover:text-gray-100" to="/register">
+                Register
+              </NavLink>
             </>
-          ) : (<NavLink className="hover:text-gray-100" to="/login">
-          Logout
-        </NavLink>)}
-          
+          )}
         </div>
       </div>
     </>

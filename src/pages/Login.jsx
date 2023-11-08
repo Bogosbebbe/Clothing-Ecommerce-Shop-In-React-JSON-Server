@@ -13,7 +13,7 @@ const Login = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    sessionStorage.clear();
+    localStorage.clear();
     store.dispatch(logoutUser());
     console.log("ocisceno");
   }, []);
@@ -43,7 +43,7 @@ const Login = () => {
           );
           if (foundUser[0]) {
             toast.success("Login successful");
-            sessionStorage.setItem("id", foundUser[0].id);
+            localStorage.setItem("id", foundUser[0].id);
             store.dispatch(loginUser());
             navigate("/");
           } else {

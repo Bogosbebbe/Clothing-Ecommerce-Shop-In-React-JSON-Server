@@ -15,8 +15,10 @@ import { nanoid } from "nanoid";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../features/cart/cartSlice";
 import {
-  addToWishlist, removeFromWishlist,
+  addToWishlist,
+  removeFromWishlist,
 } from "../features/wishlist/wishlistSlice";
+import { toast } from "react-toastify";
 
 export const singleProductLoader = async ({ params }) => {
   const { id } = params;
@@ -32,6 +34,7 @@ const SingleProduct = () => {
   const [size, setSize] = useState(0);
   const { wishItems } = useSelector((state) => state.wishlist);
   const dispatch = useDispatch();
+  const loginState = useSelector((state) => state.auth.isLoggedIn);
   const [rating, setRating] = useState([
     "empty star",
     "empty star",
@@ -51,9 +54,11 @@ const SingleProduct = () => {
     brandName: productData?.brandName,
     amount: quantity,
     selectedSize: size || productData?.availableSizes[0],
-    isInWishList: wishItems.find(item => item.id === productData?.id + size) !== undefined 
+    isInWishList:
+      wishItems.find((item) => item.id === productData?.id + size) !==
+      undefined,
   };
-console.log(product);
+  console.log(product);
 
   for (let i = 0; i < productData?.rating; i++) {
     rating[i] = "full star";
@@ -110,26 +115,54 @@ console.log(product);
           <div className="flex flex-row gap-x-2 max-sm:flex-col max-sm:gap-x">
             <button
               className="btn bg-blue-600 hover:bg-blue-500 text-white"
-              onClick={() => dispatch(addToCart(product))}
+              onClick={() => {
+                if (loginState) {
+                  dispatch(addToCart(product));
+                } else {
+                  toast.error(
+                    "You must be logged in to add products to the cart"
+                  );
+                }
+              }}
             >
               <FaCartShopping className="text-xl mr-1" />
               Add to cart
             </button>
 
-            { product?.isInWishList ? (<button
-              className="btn bg-blue-600 hover:bg-blue-500 text-white"
-              onClick={() => dispatch(removeFromWishlist(product?.id))}
-            >
-              <FaHeart className="text-xl mr-1" />
-              Remove from wishlist
-            </button>) : (<button
-              className="btn bg-blue-600 hover:bg-blue-500 text-white"
-              onClick={() => dispatch(addToWishlist(product))}
-            >
-              <FaHeart className="text-xl mr-1" />
-              Add to wishlist
-            </button>) }
-            
+            {product?.isInWishList ? (
+              <button
+                className="btn bg-blue-600 hover:bg-blue-500 text-white"
+                onClick={() => {
+                  if (loginState) {
+                    dispatch(removeFromWishlist(product?.id));
+                  } else {
+                    toast.error(
+                      "You must be logged in to remove products from the wishlist"
+                    );
+                  }
+                }}
+              >
+                <FaHeart className="text-xl mr-1" />
+                Remove from wishlist
+              </button>
+            ) : (
+              <button
+                className="btn bg-blue-600 hover:bg-blue-500 text-white"
+                onClick={() => {
+                  if(loginState){
+                    dispatch(addToWishlist(product));
+                  }else{
+                    toast.error(
+                      "You must be logged in to add products to the wishlist"
+                    );
+                  }
+
+                }}
+              >
+                <FaHeart className="text-xl mr-1" />
+                Add to wishlist
+              </button>
+            )}
           </div>
           <div className="other-product-info flex flex-col gap-x-2">
             <div className="badge bg-gray-700 badge-lg font-bold text-white">
