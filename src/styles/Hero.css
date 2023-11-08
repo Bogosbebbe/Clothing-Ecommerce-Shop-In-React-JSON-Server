@@ -1,9 +1,10 @@
 .hero{
     height: 700px;
-    background-image: url("../assets/main banner.jpg");
+    background-image: url("../assets/main banner 3.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 @media(max-width: 500px){

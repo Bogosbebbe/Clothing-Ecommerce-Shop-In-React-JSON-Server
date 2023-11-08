@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   isLoggedIn: localStorage.getItem('id') ? true : false,
+  darkMode: true
 };
 
 const authSlice = createSlice({
@@ -14,10 +15,18 @@ const authSlice = createSlice({
     logoutUser: (state) => {
       state.isLoggedIn = false;
     },
+    changeMode: (state) => {
+      state.darkMode = !state.darkMode;
+      if(state.darkMode){
+        document.querySelector('html').setAttribute('data-theme', "dark");
+      }else{
+        document.querySelector('html').setAttribute('data-theme', "winter");
+      }
+    }
   },
 });
 
 // console.log(cartSlice);
-export const { loginUser, logoutUser } = authSlice.actions;
+export const { loginUser, logoutUser, changeMode } = authSlice.actions;
 
 export default authSlice.reducer;

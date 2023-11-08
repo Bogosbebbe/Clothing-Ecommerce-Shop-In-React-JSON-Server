@@ -22,12 +22,12 @@ const CartItem = ({ cartItem }) => {
       {/* INFO */}
       <div className="sm:ml-16 sm:w-48">
         {/* TITLE */}
-        <h3 className="capitalize font-medium">{title}</h3>
+        <h3 className="capitalize font-medium text-accent-content">{title}</h3>
         {/* COMPANY */}
-        <h4 className="mt-2 capitalize text-sm text-neutral-content">
+        <h4 className="mt-2 capitalize text-sm text-accent-content">
           Brand: { brandName }
         </h4>
-        <h4 className="mt-2 capitalize text-sm text-neutral-content">
+        <h4 className="mt-2 capitalize text-sm text-accent-content">
           Size: { selectedSize }
         </h4>
       </div>
@@ -35,19 +35,19 @@ const CartItem = ({ cartItem }) => {
         {/* AMOUNT */}
         <div className="form-control max-w-xs">
           <label htmlFor="amount" className="label p-0">
-            <span className="label-text">Amount</span>
+            <span className="label-text text-accent-content">Amount</span>
           </label>
           <input
             name="number"
             id="amount"
-            className="mt-2 input input-bordered input-sm w-full max-w-xs"
+            className="mt-2 input input-bordered input-sm w-full max-w-xs text-accent-content"
             value={amount}
            onChange={(event) => dispatch(updateCartAmount({id: id, amount: event.target.value}))}
             />
         </div>
         {/* REMOVE */}
         <button
-          className="mt-2 link link-warning link-hover text-sm"
+          className="mt-2 link link-warning link-hover text-sm text-accent-content"
           onClick={()=> dispatch(removeItem(id))}
         >
           remove
@@ -55,7 +55,7 @@ const CartItem = ({ cartItem }) => {
       </div>
 
       {/* PRICE */}
-      <p className="font-medium sm:ml-auto">${ (price * amount).toFixed(2) }</p>
+      <p className="font-medium sm:ml-auto text-accent-content">${ (price * amount).toFixed(2) }</p>
     </article>
   );
 };

@@ -6,9 +6,9 @@ const WishItem = ({ item, counter }) => {
     const dispatch = useDispatch();
   return (
     <tr className="hover cursor-pointer">
-      <th>{ counter + 1 }</th>
-      <td>{ item.title }</td>
-      <td>{ item.selectedSize }</td>
+      <th className="text-accent-content">{ counter + 1 }</th>
+      <td className="text-accent-content">{ item.title }</td>
+      <td className="text-accent-content">{ item.selectedSize }</td>
       <td>
         <button className="btn btn-xs btn-error text-sm" onClick={() => dispatch(removeFromWishlist(item.id))}>
           <FaHeartCrack />

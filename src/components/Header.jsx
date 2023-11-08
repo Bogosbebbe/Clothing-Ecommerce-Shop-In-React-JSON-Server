@@ -5,15 +5,20 @@ import { FaRegEnvelope } from "react-icons/fa6";
 import { HiMiniBars3BottomLeft } from "react-icons/hi2";
 import { FaHeart } from "react-icons/fa6";
 import { AiFillShopping } from "react-icons/ai";
+import { FaSun } from "react-icons/fa6";
+import { FaMoon } from "react-icons/fa6";
 
 import "../styles/Header.css";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { changeMode } from "../features/auth/authSlice";
 
 const Header = () => {
   const { amount } = useSelector((state) => state.cart);
   const { total } = useSelector((state) => state.cart);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [id, setId] = useState(localStorage.getItem("id"));
+  const dispatch = useDispatch();
+  const { darkMode } = useSelector((state) => state.auth);
 
   const loginState = useSelector((state) => state.auth.isLoggedIn);
 
@@ -26,12 +31,12 @@ const Header = () => {
       <div className="topbar border-b border-gray-800">
         <ul>
           <li>
-            <FaHeadphones className="text-2xl max-sm:text-lg" />
-            <span className="text-2xl max-sm:text-lg">+381 61/123-456</span>
+            <FaHeadphones className="text-2xl max-sm:text-lg text-accent-content" />
+            <span className="text-2xl max-sm:text-lg text-accent-content">+381 61/123-456</span>
           </li>
           <li>
-            <FaRegEnvelope className="text-2xl max-sm:text-lg" />{" "}
-            <span className="text-2xl max-sm:text-lg">support@test.com</span>
+            <FaRegEnvelope className="text-2xl max-sm:text-lg text-accent-content" />{" "}
+            <span className="text-2xl max-sm:text-lg text-accent-content">support@test.com</span>
           </li>
         </ul>
       </div>
@@ -39,14 +44,14 @@ const Header = () => {
         <div className="flex-1">
           <Link
             to="/"
-            className="btn btn-ghost normal-case text-2xl font-black"
+            className="btn btn-ghost normal-case text-2xl font-black text-accent-content"
           >
             <AiFillShopping />
-            Kuzma Clothing Shop
+            Kuzma Clothing & Shoes
           </Link>
         </div>
         <div className="flex-none">
-          <Link to="/search" className="btn btn-ghost btn-circle">
+          <Link to="/search" className="btn btn-ghost btn-circle text-accent-content">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -62,7 +67,8 @@ const Header = () => {
               />
             </svg>
           </Link>
-          <Link to="/wishlist" className="btn btn-ghost btn-circle">
+          <button className="text-accent-content btn btn-ghost btn-circle text-xl" onClick={() => dispatch(changeMode())}>{ darkMode ? <FaSun /> : <FaMoon />}</button>
+          <Link to="/wishlist" className="btn btn-ghost btn-circle text-accent-content">
             <FaHeart className="text-xl" />
           </Link>
           <div className="dropdown dropdown-end">
@@ -89,12 +95,12 @@ const Header = () => {
               className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow"
             >
               <div className="card-body">
-                <span className="font-bold text-lg">{amount} Items</span>
-                <span className="text-info">Subtotal: ${total.toFixed(2)}</span>
+                <span className="font-bold text-lg text-accent-content">{amount} Items</span>
+                <span className="text-info text-accent-content">Subtotal: ${total.toFixed(2)}</span>
                 <div className="card-actions">
                   <Link
                     to="/cart"
-                    className="btn bg-blue-600 btn-block text-white hover:bg-blue-500"
+                    className="btn bg-blue-600 btn-block text-white hover:bg-blue-500 text-base-content"
                   >
                     View cart
                   </Link>
@@ -114,15 +120,15 @@ const Header = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <Link to="/user-profile" className="justify-between">
+                  <Link to="/user-profile" className="justify-between text-accent-content">
                     Profile
                   </Link>
                 </li>
                 <li>
-                  <a>Settings</a>
+                  <a className="text-accent-content">Settings</a>
                 </li>
                 <li>
-                  <Link to="/login">Logout</Link>
+                  <Link to="/login" className="text-accent-content">Logout</Link>
                 </li>
               </ul>
             </div>
@@ -148,34 +154,34 @@ const Header = () => {
             <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content mt-4">
               {/* Sidebar content here */}
               <li className="text-xl">
-                <NavLink className="hover:text-gray-100" to="/">
+                <NavLink className="text-accent-content" to="/">
                   Home
                 </NavLink>
               </li>
               <li className="text-xl">
-                <NavLink className="hover:text-gray-100" to="/shop">
+                <NavLink className="text-accent-content" to="/shop">
                   Shop
                 </NavLink>
               </li>
               <li className="text-xl">
-                <NavLink className="hover:text-gray-100" to="/about-us">
+                <NavLink className="text-accent-content" to="/about-us">
                   About us
                 </NavLink>
               </li>
               <li className="text-xl">
-                <NavLink className="hover:text-gray-100" to="/contact">
+                <NavLink className="text-accent-content" to="/contact">
                   Contact
                 </NavLink>
               </li>
               {!isLoggedIn && (
                 <>
                   <li className="text-xl">
-                    <NavLink className="hover:text-gray-100" to="/login">
+                    <NavLink className="text-accent-content" to="/login">
                       Login
                     </NavLink>
                   </li>
                   <li className="text-xl">
-                    <NavLink className="hover:text-gray-100" to="/register">
+                    <NavLink className="text-accent-content" to="/register">
                       Register
                     </NavLink>
                   </li>
@@ -186,24 +192,24 @@ const Header = () => {
         </div>
 
         <div className="container text-2xl navlinks-container">
-          <NavLink className="hover:text-gray-100" to="/">
+          <NavLink className="text-accent-content" to="/">
             Home
           </NavLink>
-          <NavLink className="hover:text-gray-100" to="/shop">
+          <NavLink className="text-accent-content" to="/shop">
             Shop
           </NavLink>
-          <NavLink className="hover:text-gray-100" to="/about-us">
+          <NavLink className="text-accent-content" to="/about-us">
             About us
           </NavLink>
-          <NavLink className="hover:text-gray-100" to="/contact">
+          <NavLink className="text-accent-content" to="/contact">
             Contact
           </NavLink>
           {!isLoggedIn && (
             <>
-              <NavLink className="hover:text-gray-100" to="/login">
+              <NavLink className="text-accent-content" to="/login">
                 Login
               </NavLink>
-              <NavLink className="hover:text-gray-100" to="/register">
+              <NavLink className="text-accent-content" to="/register">
                 Register
               </NavLink>
             </>
