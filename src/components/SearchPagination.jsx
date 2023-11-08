@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaCircleArrowLeft } from "react-icons/fa6";
 import { FaCircleArrowRight } from "react-icons/fa6";
 
-const SearchPagination = ({ currentPage, setCurrentPage, products, handleSearchPagination }) => {
+const SearchPagination = ({
+  currentPage,
+  setCurrentPage,
+  products,
+  handleSearchPagination,
+}) => {
+  useEffect(() => {
+    handleSearchPagination();
+    window.scrollTo(0, 0);
+  }, [currentPage]);
   return (
     <>
       <div className="pagination flex justify-center mt-10">
@@ -13,9 +22,7 @@ const SearchPagination = ({ currentPage, setCurrentPage, products, handleSearchP
               if (currentPage === 1) {
                 return;
               }
-              setCurrentPage(currentPage - 1);
-              handleSearchPagination();
-              window.scrollTo(0, 0);
+              setCurrentPage((prevState) => prevState - 1);
             }}
           >
             <FaCircleArrowLeft />
@@ -28,9 +35,7 @@ const SearchPagination = ({ currentPage, setCurrentPage, products, handleSearchP
                 return;
               }
 
-              setCurrentPage(currentPage + 1);
-              handleSearchPagination();
-              window.scrollTo(0, 0);
+              setCurrentPage((prevState) => prevState + 1);
             }}
           >
             <FaCircleArrowRight />

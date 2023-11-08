@@ -8,14 +8,10 @@ const Search = () => {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
-  // na klik dugmeta paginacije zelim da pozovem handleSearch
-  // ali problem je sto kada se klikne paginacija event vise ne postoji
-  // onda ce mi trebati nova funkcija da bih fetchovao rezultate i pozivao current page
-  // naravno trebacu da sacuvam vrednost search Terma 
-  // POSTOJI PROBLEM SA SEARCH PAGINACIJOM
   const handleSearch = async (e) => {
     e.preventDefault();
-    setSearchTerm(e.target.search.value);
+    setCurrentPage(prevState =>  1);
+    setSearchTerm(prevState => e.target.search.value);
     try {
       const response = await axios(
         `http://localhost:8080/products?q=${e.target.search.value}&&_page=${currentPage}`
@@ -28,6 +24,7 @@ const Search = () => {
   };
 
   const handleSearchPagination = async () => {
+    console.log("current page: ",currentPage);
     try {
         const response = await axios(
           `http://localhost:8080/products?q=${searchTerm}&&_page=${currentPage}`
@@ -42,8 +39,9 @@ const Search = () => {
   return (
     <>
       <SectionTitle title="Search" path="Home | Search" />
+      
       <form
-        className="form-control max-w-7xl mx-auto py-10"
+        className="form-control max-w-7xl mx-auto py-10 px-10"
         onSubmit={handleSearch}
       >
         <div className="input-group">
@@ -74,6 +72,7 @@ const Search = () => {
           </button>
         </div>
       </form>
+      {searchTerm && <h2 className="text-center text-6xl my-10 max-lg:text-4xl max-sm:text-2xl max-sm:my-5">Showing results for "{searchTerm}"</h2>}
       <div className="grid grid-cols-4 px-2 max-w-7xl mx-auto gap-y-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 shop-products-grid">
         {products &&
           products.map((product) => (
