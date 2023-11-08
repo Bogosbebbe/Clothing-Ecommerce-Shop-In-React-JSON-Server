@@ -10,7 +10,8 @@ import {
   Shop,
   SingleProduct,
   Wishlist,
-  Profile
+  Profile,
+  Search
 } from "./pages";
 import { landingLoader } from "./pages/Landing";
 import { singleProductLoader } from "./pages/SingleProduct";
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
         path: "user-profile",
         element: <Profile />,
       },
+      {
+        path:"search",
+        element: <Search />
+      }
     ],
   },
 ]);
