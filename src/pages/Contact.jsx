@@ -16,7 +16,7 @@ const Contact = () => {
             <div>
               <label
                 htmlFor="first-name"
-                className="block text-sm font-semibold leading-6"
+                className="block text-sm font-semibold leading-6 text-accent-content"
               >
                 First name
               </label>
@@ -33,7 +33,7 @@ const Contact = () => {
             <div>
               <label
                 htmlFor="last-name"
-                className="block text-sm font-semibold leading-6"
+                className="block text-sm font-semibold leading-6 text-accent-content"
               >
                 Last name
               </label>
@@ -50,7 +50,7 @@ const Contact = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="company"
-                className="block text-sm font-semibold leading-6"
+                className="block text-sm font-semibold leading-6 text-accent-content"
               >
                 Company
               </label>
@@ -67,7 +67,7 @@ const Contact = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="email"
-                className="block text-sm font-semibold leading-6"
+                className="block text-sm font-semibold leading-6 text-accent-content"
               >
                 Email
               </label>
@@ -84,7 +84,7 @@ const Contact = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="phone-number"
-                className="block text-sm font-semibold leading-6"
+                className="block text-sm font-semibold leading-6 text-accent-content"
               >
                 Phone number
               </label>
@@ -101,7 +101,7 @@ const Contact = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="block text-sm font-semibold leading-6"
+                className="block text-sm font-semibold leading-6 text-accent-content"
               >
                 Message
               </label>
@@ -123,7 +123,7 @@ const Contact = () => {
                   aria-checked="false"
                   aria-labelledby="switch-1-label"
                 >
-                  <span className="sr-only">Agree to policies</span>
+                  <span className="sr-only text-accent-content">Agree to policies</span>
 
                   <span
                     aria-hidden="true"
@@ -131,10 +131,10 @@ const Contact = () => {
                   ></span>
                 </button>
               </div>
-              <label className="text-sm leading-6" id="switch-1-label">
+              <label className="text-sm leading-6 text-accent-content" id="switch-1-label">
                 By selecting this, you agree to our
-                <a href="#" className="font-semibold text-indigo-600">
-                  privacy&nbsp;policy
+                <a href="#" className="font-semibold text-blue-500">
+                &nbsp;privacy&nbsp;policy
                 </a>
                 .
               </label>

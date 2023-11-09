@@ -87,12 +87,12 @@ const SingleProduct = () => {
           </div>
         </div>
         <div className="single-product-content flex flex-col gap-y-5 max-lg:mt-2">
-          <h2 className="text-5xl max-sm:text-3xl">{productData?.name}</h2>
+          <h2 className="text-5xl max-sm:text-3xl text-accent-content">{productData?.name}</h2>
           <SingleProductRating rating={rating} productData={productData} />
           <p className="text-3xl text-error">
             ${productData?.price?.current?.value}
           </p>
-          <div className="text-xl max-sm:text-lg">
+          <div className="text-xl max-sm:text-lg text-accent-content">
             {parse(productData?.description)}
           </div>
           <div className="text-2xl">
