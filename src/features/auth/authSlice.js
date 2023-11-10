@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
+  userId: localStorage.getItem('id') || false,
   isLoggedIn: localStorage.getItem('id') ? true : false,
   darkMode: true
 };
@@ -11,9 +12,11 @@ const authSlice = createSlice({
   reducers: {
     loginUser: (state) => {
       state.isLoggedIn = true;
+      state.userId = localStorage.getItem('id');
     },
     logoutUser: (state) => {
       state.isLoggedIn = false;
+      state.userId = false;
     },
     changeMode: (state) => {
       state.darkMode = !state.darkMode;

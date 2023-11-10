@@ -10,7 +10,7 @@ const WishItem = ({ item, counter }) => {
       <td className="text-accent-content">{ item.title }</td>
       <td className="text-accent-content">{ item.selectedSize }</td>
       <td>
-        <button className="btn btn-xs btn-error text-sm" onClick={() => dispatch(removeFromWishlist(item.id))}>
+        <button className="btn btn-xs btn-error text-sm" onClick={() => dispatch(removeFromWishlist({productId: item.id}))}>
           <FaHeartCrack />
           remove from the wishlist
         </button>

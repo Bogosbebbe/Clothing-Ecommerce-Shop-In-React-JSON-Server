@@ -12,6 +12,9 @@ import { FaWindowClose } from "react-icons/fa";
 import "../styles/Header.css";
 import { useDispatch, useSelector } from "react-redux";
 import { changeMode } from "../features/auth/authSlice";
+import { store } from "../store";
+import axios from "axios";
+import { clearWishlist, updateWishlist } from "../features/wishlist/wishlistSlice";
 
 const Header = () => {
   const { amount } = useSelector((state) => state.cart);
@@ -23,8 +26,31 @@ const Header = () => {
 
   const loginState = useSelector((state) => state.auth.isLoggedIn);
 
+
+  const fetchWishlist = async () => {
+    if(loginState){
+      try {
+        const getResponse = await axios.get(`http://localhost:8080/user/${localStorage.getItem("id")}`);
+        const userObj = getResponse.data;
+  
+        store.dispatch(updateWishlist({userObj}));
+        
+       
+      } catch (error) {
+        console.error(error);
+      }
+    }else{
+      store.dispatch(clearWishlist());
+    }
+
+  };
+
+
   useEffect(() => {
     setIsLoggedIn(loginState);
+
+      fetchWishlist();
+    
   }, [loginState]);
 
   return (

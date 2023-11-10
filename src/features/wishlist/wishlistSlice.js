@@ -1,4 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
+import axios from "axios";
+import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
 
 const initialState = {
@@ -15,18 +17,14 @@ const wishlistSlice = createSlice({
       state.wishItems = [];
     },
     removeFromWishlist: (state, action) => {
-      const itemId = action.payload;
+      const itemId = action.payload.productId;
       state.wishItems = state.wishItems.filter((item) => item.id !== itemId);
       toast.error("Product removed from the wishlist!");
     },
-    addToWishlist: (state, action) => {
-      const wishItem = state.wishItems.find(
-        (item) => item.id === action.payload.id
-      );
+    updateWishlist: (state, action) => {
 
-      state.wishItems.push(action.payload);
+      state.wishItems = action.payload.userObj.userWishlist;
 
-      toast.success("Product added to the wishlist!");
     },
     calculateWishlistAmount: (state) => {
       let amount = 0;
@@ -42,7 +40,7 @@ const wishlistSlice = createSlice({
 export const {
   clearWishlist,
   removeFromWishlist,
-  addToWishlist,
+  updateWishlist,
   calculateWishlistAmount,
 } = wishlistSlice.actions;
 

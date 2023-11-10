@@ -15,10 +15,11 @@ import { nanoid } from "nanoid";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../features/cart/cartSlice";
 import {
-  addToWishlist,
+  updateWishlist,
   removeFromWishlist,
 } from "../features/wishlist/wishlistSlice";
 import { toast } from "react-toastify";
+import { store } from "../store";
 
 export const singleProductLoader = async ({ params }) => {
   const { id } = params;
@@ -33,6 +34,7 @@ const SingleProduct = () => {
   const [quantity, setQuantity] = useState(1);
   const [size, setSize] = useState(0);
   const { wishItems } = useSelector((state) => state.wishlist);
+  const { userId } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
   const loginState = useSelector((state) => state.auth.isLoggedIn);
   const [rating, setRating] = useState([
@@ -58,11 +60,35 @@ const SingleProduct = () => {
       wishItems.find((item) => item.id === productData?.id + size) !==
       undefined,
   };
-  console.log(product);
 
   for (let i = 0; i < productData?.rating; i++) {
     rating[i] = "full star";
   }
+
+  const addToWishlistHandler = async (product) => {
+    try {
+      const getResponse = await axios.get(`http://localhost:8080/user/${localStorage.getItem("id")}`);
+      const userObj = getResponse.data;
+  
+  
+      // Ensure userWishlist is initialized as an array
+      userObj.userWishlist = userObj.userWishlist || [];
+  
+
+        userObj.userWishlist.push(product);
+  
+        const postResponse = await axios.put(`http://localhost:8080/user/${localStorage.getItem("id")}`, userObj);
+  
+        
+  
+        // Dispatch the addToWishlist action with the product data
+        store.dispatch(updateWishlist({ userObj }));
+        toast.success("Product added to the wishlist!");
+     
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
   return (
     <>
@@ -87,7 +113,9 @@ const SingleProduct = () => {
           </div>
         </div>
         <div className="single-product-content flex flex-col gap-y-5 max-lg:mt-2">
-          <h2 className="text-5xl max-sm:text-3xl text-accent-content">{productData?.name}</h2>
+          <h2 className="text-5xl max-sm:text-3xl text-accent-content">
+            {productData?.name}
+          </h2>
           <SingleProductRating rating={rating} productData={productData} />
           <p className="text-3xl text-error">
             ${productData?.price?.current?.value}
@@ -134,7 +162,9 @@ const SingleProduct = () => {
                 className="btn bg-blue-600 hover:bg-blue-500 text-white"
                 onClick={() => {
                   if (loginState) {
-                    dispatch(removeFromWishlist(product?.id));
+                    dispatch(
+                      removeFromWishlist({ productId: product?.id, userId })
+                    );
                   } else {
                     toast.error(
                       "You must be logged in to remove products from the wishlist"
@@ -149,14 +179,13 @@ const SingleProduct = () => {
               <button
                 className="btn bg-blue-600 hover:bg-blue-500 text-white"
                 onClick={() => {
-                  if(loginState){
-                    dispatch(addToWishlist(product));
-                  }else{
+                  if (loginState) {
+                    addToWishlistHandler(product);
+                  } else {
                     toast.error(
                       "You must be logged in to add products to the wishlist"
                     );
                   }
-
                 }}
               >
                 <FaHeart className="text-xl mr-1" />

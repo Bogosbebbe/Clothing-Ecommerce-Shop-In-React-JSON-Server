@@ -57,6 +57,7 @@ const Profile = () => {
         phone: userFormData.phone,
         adress: userFormData.adress,
         password: userFormData.password
+        //userWishlist treba da stoji ovde kako bi sacuvao stanje liste zelja
       });
       const data = response.data;
       console.log(data);

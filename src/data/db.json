@@ -4596,31 +4596,114 @@
   ],
   "user": [
     {
-      "id": "UPO_NlmVldNggokzjzj6K",
-      "name": "Aleksandar",
-      "lastname": "Kuzmanovic",
-      "email": "kuzma@gmail.com",
-      "phone": "061123321",
-      "adress": "Marka Markovica 22",
-      "password": "1233214321"
-    },
-    {
-      "id": "f7D3Xad_vbzORVgYtbeET",
+      "id": "DLndQpZZh4GECZemPZYt4",
       "name": "Marko",
       "lastname": "Markovic",
       "email": "marko@gmail.com",
       "phone": "061123321",
-      "adress": "Marka Markovica 125",
-      "password": "1233214321"
+      "adress": "Marko Markovic 125",
+      "password": "1233214321",
+      "userWishlist": [
+        {
+          "id": 204349751,
+          "title": "Reebok BB 4000 II sneakers in white with blue detail",
+          "image": "images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
+          "rating": 3,
+          "price": 90,
+          "brandName": "Reebok",
+          "amount": 1,
+          "selectedSize": 37,
+          "isInWishList": false
+        },
+        {
+          "id": 205170993,
+          "title": "New Balance 574 sneakers in gray with black detail",
+          "image": "images.asos-media.com/products/new-balance-574-sneakers-in-gray-with-black-detail/205170993-1-grey",
+          "rating": 5,
+          "price": 94.99,
+          "brandName": "New Balance",
+          "amount": 1,
+          "selectedSize": 40,
+          "isInWishList": false
+        },
+        {
+          "id": "20517097745",
+          "title": "New Balance 580 sneakers in gray",
+          "image": "images.asos-media.com/products/new-balance-580-sneakers-in-gray/205170977-1-grey",
+          "rating": 5,
+          "price": 129.99,
+          "brandName": "New Balance",
+          "amount": 1,
+          "selectedSize": "45",
+          "isInWishList": false
+        },
+        {
+          "id": 205116880,
+          "title": "Vans Knu Skool sneakers in navy and white",
+          "image": "images.asos-media.com/products/vans-knu-skool-sneakers-in-navy-and-white/205116880-1-navy",
+          "rating": 3,
+          "price": 75,
+          "brandName": "Vans",
+          "amount": 1,
+          "selectedSize": 38,
+          "isInWishList": false
+        }
+      ]
     },
     {
-      "id": "lK2FUBeWcrqFFeoiCAz2w",
-      "name": "Aleksa",
-      "lastname": "Aleksic",
-      "email": "aleksa@gmail.com",
+      "id": "3srZZO5Y6uCjrvzMPSd8i",
+      "name": "Aleksandar",
+      "lastname": "Kuzmanovic",
+      "email": "kuzma@gmail.com",
       "phone": "061123321",
-      "adress": "Alekse Aleksica 123",
-      "password": "1233214321"
+      "adress": "Marka Markovica 125 ",
+      "password": "1233214321",
+      "userWishlist": [
+        {
+          "id": 204349751,
+          "title": "Reebok BB 4000 II sneakers in white with blue detail",
+          "image": "images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
+          "rating": 3,
+          "price": 90,
+          "brandName": "Reebok",
+          "amount": 1,
+          "selectedSize": 37,
+          "isInWishList": false
+        },
+        {
+          "id": 205170993,
+          "title": "New Balance 574 sneakers in gray with black detail",
+          "image": "images.asos-media.com/products/new-balance-574-sneakers-in-gray-with-black-detail/205170993-1-grey",
+          "rating": 5,
+          "price": 94.99,
+          "brandName": "New Balance",
+          "amount": 1,
+          "selectedSize": 40,
+          "isInWishList": false
+        },
+        {
+          "id": 205116880,
+          "title": "Vans Knu Skool sneakers in navy and white",
+          "image": "images.asos-media.com/products/vans-knu-skool-sneakers-in-navy-and-white/205116880-1-navy",
+          "rating": 3,
+          "price": 75,
+          "brandName": "Vans",
+          "amount": 1,
+          "selectedSize": 38,
+          "isInWishList": false
+        },
+        {
+          "id": "20429515940",
+          "title": "Crocs classic all terrain clogs in khaki",
+          "image": "images.asos-media.com/products/crocs-classic-all-terrain-clogs-in-khaki/204295159-1-neutral",
+          "rating": 4,
+          "price": 59.99,
+          "brandName": "Crocs",
+          "amount": 1,
+          "selectedSize": "40",
+          "isInWishList": false
+        }
+      ]
     }
   ]
 }
