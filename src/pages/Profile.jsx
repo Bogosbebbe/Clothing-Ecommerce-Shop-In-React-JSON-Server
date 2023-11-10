@@ -9,6 +9,7 @@ const Profile = () => {
   const [id, setId] = useState(localStorage.getItem("id"));
   const [userData, setUserData] = useState({});
   const loginState = useSelector((state) => state.auth.isLoggedIn);
+  const wishItems = useSelector((state) => state.wishlist.wishItems);
   const [userFormData, setUserFormData] = useState({
     id: "",
     name: "",
@@ -46,21 +47,26 @@ const Profile = () => {
     }
   }, []);
 
-  const updateProfile = async () => {
+  const updateProfile = async (e) => {
+    e.preventDefault();
     try{
+
+      const getResponse = await axios(`http://localhost:8080/user/${id}`);
+      const userObj = getResponse.data;
+
       // saljemo get(default) request
-      const response = await axios.put(`http://localhost:8080/user/${id}`, {
+      const putResponse = await axios.put(`http://localhost:8080/user/${id}`, {
         id: id,
         name: userFormData.name,
         lastname: userFormData.lastname,
         email: userFormData.email,
         phone: userFormData.phone,
         adress: userFormData.adress,
-        password: userFormData.password
+        password: userFormData.password,
+        userWishlist: await userObj.userWishlist
         //userWishlist treba da stoji ovde kako bi sacuvao stanje liste zelja
       });
-      const data = response.data;
-      console.log(data);
+      const putData = putResponse.data;
     }catch(error){
       console.log(error.response);
     }

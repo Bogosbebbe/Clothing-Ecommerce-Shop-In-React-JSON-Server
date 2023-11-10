@@ -4596,12 +4596,12 @@
   ],
   "user": [
     {
-      "id": "DLndQpZZh4GECZemPZYt4",
-      "name": "Marko",
-      "lastname": "Markovic",
-      "email": "marko@gmail.com",
-      "phone": "061123321",
-      "adress": "Marko Markovic 125",
+      "id": "UIJrEcYfkKo3wKOni2t9Q",
+      "name": "Aleksandar",
+      "lastname": "Kuzmanovic",
+      "email": "kuzma@gmail.com",
+      "phone": "06112332112132",
+      "adress": "Marka Markovica 100",
       "password": "1233214321",
       "userWishlist": [
         {
@@ -4616,6 +4616,17 @@
           "isInWishList": false
         },
         {
+          "id": 205116880,
+          "title": "Vans Knu Skool sneakers in navy and white",
+          "image": "images.asos-media.com/products/vans-knu-skool-sneakers-in-navy-and-white/205116880-1-navy",
+          "rating": 3,
+          "price": 75,
+          "brandName": "Vans",
+          "amount": 1,
+          "selectedSize": 38,
+          "isInWishList": false
+        },
+        {
           "id": 205170993,
           "title": "New Balance 574 sneakers in gray with black detail",
           "image": "images.asos-media.com/products/new-balance-574-sneakers-in-gray-with-black-detail/205170993-1-grey",
@@ -4627,38 +4638,17 @@
           "isInWishList": false
         },
         {
-          "id": "20517097745",
-          "title": "New Balance 580 sneakers in gray",
-          "image": "images.asos-media.com/products/new-balance-580-sneakers-in-gray/205170977-1-grey",
-          "rating": 5,
-          "price": 129.99,
-          "brandName": "New Balance",
-          "amount": 1,
-          "selectedSize": "45",
-          "isInWishList": false
-        },
-        {
-          "id": 205116880,
-          "title": "Vans Knu Skool sneakers in navy and white",
-          "image": "images.asos-media.com/products/vans-knu-skool-sneakers-in-navy-and-white/205116880-1-navy",
+          "id": "20434975139",
+          "title": "Reebok BB 4000 II sneakers in white with blue detail",
+          "image": "images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
           "rating": 3,
-          "price": 75,
-          "brandName": "Vans",
+          "price": 90,
+          "brandName": "Reebok",
           "amount": 1,
-          "selectedSize": 38,
+          "selectedSize": "39",
           "isInWishList": false
         }
       ]
-    },
-    {
-      "id": "3srZZO5Y6uCjrvzMPSd8i",
-      "name": "Aleksandar",
-      "lastname": "Kuzmanovic",
-      "email": "kuzma@gmail.com",
-      "phone": "061123321",
-      "adress": "Marka Markovica 125 ",
-      "password": "1233214321",
-      "userWishlist": []
     }
   ]
 }
