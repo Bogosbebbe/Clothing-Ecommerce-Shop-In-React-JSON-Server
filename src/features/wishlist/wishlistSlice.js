@@ -17,8 +17,8 @@ const wishlistSlice = createSlice({
       state.wishItems = [];
     },
     removeFromWishlist: (state, action) => {
-      const itemId = action.payload.productId;
-      state.wishItems = state.wishItems.filter((item) => item.id !== itemId);
+      
+      state.wishItems = action.payload.userObj.userWishlist;
       toast.error("Product removed from the wishlist!");
     },
     updateWishlist: (state, action) => {

@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 
 const Wishlist = () => {
     const { wishItems } = useSelector((state) => state.wishlist); 
-    console.log(wishItems);
     const dispatch = useDispatch();
   return (
     <>

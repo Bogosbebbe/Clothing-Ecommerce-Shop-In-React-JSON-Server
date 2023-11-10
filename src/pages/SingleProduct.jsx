@@ -67,28 +67,51 @@ const SingleProduct = () => {
 
   const addToWishlistHandler = async (product) => {
     try {
-      const getResponse = await axios.get(`http://localhost:8080/user/${localStorage.getItem("id")}`);
+      const getResponse = await axios.get(
+        `http://localhost:8080/user/${localStorage.getItem("id")}`
+      );
       const userObj = getResponse.data;
-  
-  
+
       // Ensure userWishlist is initialized as an array
       userObj.userWishlist = userObj.userWishlist || [];
-  
 
-        userObj.userWishlist.push(product);
-  
-        const postResponse = await axios.put(`http://localhost:8080/user/${localStorage.getItem("id")}`, userObj);
-  
-        
-  
-        // Dispatch the addToWishlist action with the product data
-        store.dispatch(updateWishlist({ userObj }));
-        toast.success("Product added to the wishlist!");
-     
+      userObj.userWishlist.push(product);
+
+      const postResponse = await axios.put(
+        `http://localhost:8080/user/${localStorage.getItem("id")}`,
+        userObj
+      );
+
+      // Dispatch the addToWishlist action with the product data
+      store.dispatch(updateWishlist({ userObj }));
+      toast.success("Product added to the wishlist!");
     } catch (error) {
       console.error(error);
     }
   };
+
+  const removeFromWishlistHandler = async (product) => {
+    const getResponse = await axios.get(
+      `http://localhost:8080/user/${localStorage.getItem("id")}`
+    );
+    const userObj = getResponse.data;
+
+    userObj.userWishlist = userObj.userWishlist || [];
+
+    const newWishlist = userObj.userWishlist.filter(item => product.id !== item.id);
+
+    userObj.userWishlist = newWishlist;
+
+    const postResponse = await axios.put(
+      `http://localhost:8080/user/${localStorage.getItem("id")}`,
+      userObj
+    );
+
+    // Dispatch the addToWishlist action with the product data
+    store.dispatch(removeFromWishlist({ userObj }));
+    toast.success("Product removed from the wishlist!");
+
+  }
 
   return (
     <>
@@ -162,9 +185,7 @@ const SingleProduct = () => {
                 className="btn bg-blue-600 hover:bg-blue-500 text-white"
                 onClick={() => {
                   if (loginState) {
-                    dispatch(
-                      removeFromWishlist({ productId: product?.id, userId })
-                    );
+                    removeFromWishlistHandler(product);
                   } else {
                     toast.error(
                       "You must be logged in to remove products from the wishlist"
