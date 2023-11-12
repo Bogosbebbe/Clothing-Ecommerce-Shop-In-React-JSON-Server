@@ -9,6 +9,7 @@ const FormInput = ({ label, name, type, defaultValue, size }) => {
           name={name}
           defaultValue={defaultValue}
           className={`input input-bordered ${size}`}
+          placeholder="Search here..."
         />
       </div>
     );

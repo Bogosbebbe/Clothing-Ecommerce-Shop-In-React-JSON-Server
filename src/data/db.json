@@ -1849,39 +1849,6 @@
       ]
     },
     {
-      "id": 205067095,
-      "name": "ASOS DESIGN cross body tote bag in washed black",
-      "description": "Demo description",
-      "isInStock": true,
-      "gender": "female",
-      "category": "bags",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "rating": 5,
-      "totalReviewCount": 80800,
-      "productionDate": "7.7.2021.",
-      "price": {
-        "current": {
-          "value": 32.99,
-          "text": "$32.99"
-        }
-      },
-      "brandName": "ASOS DESIGN",
-      "productCode": 132142638,
-      "imageUrl": "images.asos-media.com/products/asos-design-cross-body-tote-bag-in-washed-black/205067095-1-black",
-      "additionalImageUrls": [
-        "images.asos-media.com/products/asos-design-cross-body-tote-bag-in-washed-black/205067095-1-black",
-        "images.asos-media.com/products/asos-design-cross-body-tote-bag-in-washed-black/205067095-2",
-        "images.asos-media.com/products/asos-design-cross-body-tote-bag-in-washed-black/205067095-3",
-        "images.asos-media.com/products/asos-design-cross-body-tote-bag-in-washed-black/205067095-4"
-      ]
-    },
-    {
       "id": 205082069,
       "name": "Walk London Campus loafers in black leather",
       "description": "Demo description",
@@ -4600,44 +4567,10 @@
       "name": "Aleksandar",
       "lastname": "Kuzmanovic",
       "email": "kuzma@gmail.com",
-      "phone": "06112332112132",
+      "phone": "061 1233321",
       "adress": "Marka Markovica 100",
       "password": "1233214321",
-      "userWishlist": [
-        {
-          "id": 204349751,
-          "title": "Reebok BB 4000 II sneakers in white with blue detail",
-          "image": "images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
-          "rating": 3,
-          "price": 90,
-          "brandName": "Reebok",
-          "amount": 1,
-          "selectedSize": 37,
-          "isInWishList": false
-        },
-        {
-          "id": 205170993,
-          "title": "New Balance 574 sneakers in gray with black detail",
-          "image": "images.asos-media.com/products/new-balance-574-sneakers-in-gray-with-black-detail/205170993-1-grey",
-          "rating": 5,
-          "price": 94.99,
-          "brandName": "New Balance",
-          "amount": 1,
-          "selectedSize": 40,
-          "isInWishList": false
-        },
-        {
-          "id": "20434975139",
-          "title": "Reebok BB 4000 II sneakers in white with blue detail",
-          "image": "images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
-          "rating": 3,
-          "price": 90,
-          "brandName": "Reebok",
-          "amount": 1,
-          "selectedSize": "39",
-          "isInWishList": false
-        }
-      ]
+      "userWishlist": []
     }
   ]
 }

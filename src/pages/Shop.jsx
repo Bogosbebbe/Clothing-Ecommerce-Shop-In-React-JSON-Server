@@ -7,6 +7,43 @@ import {
 } from "../components";
 import "../styles/Shop.css";
 import axios from "axios";
+import { useLoaderData } from "react-router-dom";
+import { nanoid } from "nanoid";
+
+export const shopLoader = async ({ request }) => {
+    const params = Object.fromEntries([
+      ...new URL(request.url).searchParams.entries(),
+    ]);
+    // /posts?title=json-server&author=typicode
+    // GET /posts?_sort=views&_order=asc
+  // GET /posts/1/comments?_sort=votes&_order=asc
+
+  const filterObj = {
+
+      brand: params.brand ?? "all",
+      category: params.category ?? "all",
+      date: params.date ?? new Date("July 21, 2010"),
+      gender: params.gender ?? "all",
+      order: params.order ?? "a-z",
+      price: params.price ?? 2000,
+      search: params.search ?? "",
+      size: params.size ?? "all",
+  };
+
+  console.log(filterObj);
+
+  try {
+    const response = await axios(
+      `http://localhost:8080/products?${filterObj.brand === "all" ? "" : `brandName=${params.brand}`}&&${filterObj.category === "all" ? "" : `category=${params.category}`}&&${filterObj.gender === "all" ? "" : `gender=${params.gender}`}`
+    );
+    const data = response.data;
+    return data;
+  } catch (error) {
+    console.log(error.response);
+  }
+
+    return null;
+  };
 
 const Shop = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -28,16 +65,20 @@ const Shop = () => {
     fetchData();
   }, [currentPage]);
 
+
+   const productLoaderData = useLoaderData();
+   
+
   return (
     <>
       <SectionTitle title="Shop" path="Home | Shop" />
       <div className="max-w-7xl mx-auto mt-5">
         <Filters />
         <div className="grid grid-cols-4 px-2 gap-y-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 shop-products-grid">
-          {products &&
-            products.map((product) => (
+          {productLoaderData &&
+            productLoaderData.map((product) => (
               <ProductElement
-                key={product.id}
+                key={nanoid()}
                 id={product.id}
                 title={product.name}
                 image={product.imageUrl}

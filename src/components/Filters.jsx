@@ -2,12 +2,66 @@ import React, { useState } from "react";
 import FormInput from "./FormInput";
 import { Form, Link } from "react-router-dom";
 import FormRange from "./FormRange";
-import FormCheckbox from "./FormCheckbox";
 import FormSelect from "./FormSelect";
 import FormDatePicker from "./FormDatePicker";
 
 const Filters = () => {
-    const [ selectList, setSelectList ] = useState(["item1", "item2", "item3"]);
+  const [selectCategoryList, setSelectCategoryList] = useState([
+    "all",
+    "shoes",
+    "slippers",
+    "heels",
+    "t-shirts",
+    "jackets",
+    "caps",
+    "shorts",
+    "sweaters",
+    "sneakers",
+    "shirts",
+    "boots",
+    "overshirts",
+    "pants",
+    "jeans",
+    "socks",
+    "belts",
+    "trainers",
+  ]);
+  const [selectBrandList, setSelectBrandList] = useState([
+    "all",
+    "WALK LONDON",
+    "Reebok",
+    "Nike",
+    "Jack & Jones",
+    "Crocs",
+    "Vans",
+    "Puma",
+    "New Balance",
+    "Tommy Jeans",
+    "Tommy Hilfiger",
+    "Bershka",
+    "New Look",
+    "AllSaints",
+    "Columbia",
+    "The North Face",
+    "Collusion",
+    "ASOS DESIGN",
+    "Topman",
+    "Dr Denim",
+    "Polo Ralph Lauren",
+    "ASOS Dark Future",
+    "Levi's",
+    "Threadbare",
+    "Calvin Klein",
+    "AAPE BY A BATHING APE®",
+    "Good For Nothing",
+    "Timberland",
+    "Pull&Bear",
+    "Koi Footwear",
+    "adidas performance",
+    "Nike Running",
+    "Dr Martens",
+    "River Island",
+  ]);
   return (
     <Form className="bg-base-200 rounded-md px-8 py-4 grid gap-x-4  gap-y-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center">
       {/* SEARCH */}
@@ -16,23 +70,23 @@ const Filters = () => {
         label="search product"
         name="search"
         size="input-sm"
-        defaultValue="Search here"
+        defaultValue=""
       />
       {/* CATEGORIES */}
       <FormSelect
         label="select category"
         name="category"
-        list={selectList}
+        list={selectCategoryList}
         size="select-sm"
-        defaultValue="item1"
+        defaultValue="all"
       />
       {/* COMPANIES */}
       <FormSelect
-        label="select company"
-        name="company"
-        list={selectList}
+        label="select brand"
+        name="brand"
+        list={selectBrandList}
         size="select-sm"
-        defaultValue="item1"
+        defaultValue="all"
       />
       {/* ORDER */}
       <FormSelect
@@ -46,17 +100,34 @@ const Filters = () => {
       <FormSelect
         label="Select size"
         name="size"
-        list={["XS", "S", "M", "L","XL",36,37,38,39,40,41,42,43,44,45,46,47]}
+        list={[
+          "all",
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ]}
         size="select-sm"
-        defaultValue="XS"
+        defaultValue="all"
       />
       {/* Producer */}
       <FormSelect
-        label="Select producer"
-        name="producer"
-        list={["Nike", "Adidas", "Puma", "Reebok"]}
+        label="Select gender"
+        name="gender"
+        list={["all", "male", "female"]}
         size="select-sm"
-        defaultValue="Nike"
+        defaultValue="all"
       />
       {/* PRICE */}
       <FormRange
@@ -68,10 +139,13 @@ const Filters = () => {
       {/* Date Picker */}
       <FormDatePicker label="select minimum production date" name="date" />
       {/* BUTTONS */}
-      <button type="submit" className="btn bg-blue-600 hover:bg-blue-500 text-white btn-sm">
+      <button
+        type="submit"
+        className="btn bg-blue-600 hover:bg-blue-500 text-white btn-sm"
+      >
         search
       </button>
-      <Link to="/products" className="btn btn-primary btn-sm">
+      <Link to="/shop" className="btn btn-primary btn-sm">
         reset
       </Link>
     </Form>

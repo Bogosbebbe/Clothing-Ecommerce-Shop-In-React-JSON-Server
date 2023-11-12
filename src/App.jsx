@@ -15,6 +15,7 @@ import {
 } from "./pages";
 import { landingLoader } from "./pages/Landing";
 import { singleProductLoader } from "./pages/SingleProduct";
+import { shopLoader } from "./pages/Shop";
 import { ToastContainer } from "react-toastify";
 
 const router = createBrowserRouter([
@@ -30,6 +31,8 @@ const router = createBrowserRouter([
       {
         path: "shop",
         element: <Shop />,
+        loader: shopLoader
+
       },
       {
         path: "shop/product/:id",
