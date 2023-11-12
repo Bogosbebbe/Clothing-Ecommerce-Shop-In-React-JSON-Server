@@ -26,7 +26,7 @@ export const shopLoader = async ({ request }) => {
     order: params.order ?? "asc",
     price: params.price ?? 2000,
     search: params.search ?? "",
-    in_stock: params.stock === undefined ? "false" : "true"
+    in_stock: params.stock === undefined ? false : true,
   };
   console.log("params.stock: ", params.stock);
   console.log(filterObj);
@@ -35,13 +35,17 @@ export const shopLoader = async ({ request }) => {
     const response = await axios(
       `http://localhost:8080/products?${
         filterObj.brand === "all" ? "" : `brandName=${params.brand}`
+      }&${filterObj.category === "all" ? "" : `category=${params.category}`}&${
+        filterObj.gender === "all" ? "" : `gender=${params.gender}`
       }&${
-        filterObj.category === "all" ? "" : `category=${params.category}`
-      }&${
-        filterObj.gender === "all"
-          ? ""
-          : `gender=${params.gender}`
-      }&${filterObj.order === "asc" || filterObj.order === "desc" ? `_sort=name&_order=${filterObj.order}` : (filterObj.order === "price low" ? `_sort=price.current.value&_order=asc` : `_sort=price.current.value&_order=desc`)}&${filterObj.search && `q=${filterObj.search}`}&${filterObj.price && `price.current.value_lte=${filterObj.price}`}`
+        filterObj.order === "asc" || filterObj.order === "desc"
+          ? `_sort=name&_order=${filterObj.order}`
+          : filterObj.order === "price low"
+          ? `_sort=price.current.value&_order=asc`
+          : `_sort=price.current.value&_order=desc`
+      }&${filterObj.search && `q=${filterObj.search}`}&${
+        filterObj.price && `price.current.value_lte=${filterObj.price}`
+      }&${filterObj.in_stock === true && `isInStock=${filterObj.in_stock}`}`
     );
     const data = response.data;
     return data;

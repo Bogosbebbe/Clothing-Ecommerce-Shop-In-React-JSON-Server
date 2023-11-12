@@ -116,7 +116,7 @@ const Filters = () => {
       <FormDatePicker label="select minimum production date" name="date" />
 
       {/* In stock */}
-      <FormCheckbox label="In stock?" name="stock" defaultValue="false" />
+      <FormCheckbox label="Only products in stock" name="stock" defaultValue="false" />
 
       {/* BUTTONS */}
       
