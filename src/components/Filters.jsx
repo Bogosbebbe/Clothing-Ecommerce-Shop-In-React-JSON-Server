@@ -4,6 +4,7 @@ import { Form, Link } from "react-router-dom";
 import FormRange from "./FormRange";
 import FormSelect from "./FormSelect";
 import FormDatePicker from "./FormDatePicker";
+import FormCheckbox from "./FormCheckbox";
 
 const Filters = () => {
   const [selectCategoryList, setSelectCategoryList] = useState([
@@ -55,7 +56,7 @@ const Filters = () => {
     "AAPE BY A BATHING APE®",
     "Good For Nothing",
     "Timberland",
-    "Pull&Bear",
+    "Pull and Bear",
     "Koi Footwear",
     "adidas performance",
     "Nike Running",
@@ -92,34 +93,9 @@ const Filters = () => {
       <FormSelect
         label="sort by"
         name="order"
-        list={["a-z", "z-a", "high", "low"]}
+        list={["asc", "desc", "price high", "price low"]}
         size="select-sm"
         defaultValue="a-z"
-      />
-      {/* SIZES */}
-      <FormSelect
-        label="Select size"
-        name="size"
-        list={[
-          "all",
-          "XS",
-          "S",
-          "M",
-          "L",
-          "XL",
-          37,
-          38,
-          39,
-          40,
-          41,
-          42,
-          43,
-          44,
-          45,
-          46
-        ]}
-        size="select-sm"
-        defaultValue="all"
       />
       {/* Producer */}
       <FormSelect
@@ -134,11 +110,16 @@ const Filters = () => {
         name="price"
         label="select price"
         size="range-sm"
-        price={2000}
+        price={100}
       />
       {/* Date Picker */}
       <FormDatePicker label="select minimum production date" name="date" />
+
+      {/* In stock */}
+      <FormCheckbox label="In stock?" name="stock" defaultValue="false" />
+
       {/* BUTTONS */}
+      
       <button
         type="submit"
         className="btn bg-blue-600 hover:bg-blue-500 text-white btn-sm"

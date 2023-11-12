@@ -11,30 +11,37 @@ import { useLoaderData } from "react-router-dom";
 import { nanoid } from "nanoid";
 
 export const shopLoader = async ({ request }) => {
-    const params = Object.fromEntries([
-      ...new URL(request.url).searchParams.entries(),
-    ]);
-    // /posts?title=json-server&author=typicode
-    // GET /posts?_sort=views&_order=asc
+  const params = Object.fromEntries([
+    ...new URL(request.url).searchParams.entries(),
+  ]);
+  // /posts?title=json-server&author=typicode
+  // GET /posts?_sort=views&_order=asc
   // GET /posts/1/comments?_sort=votes&_order=asc
 
   const filterObj = {
-
-      brand: params.brand ?? "all",
-      category: params.category ?? "all",
-      date: params.date ?? new Date("July 21, 2010"),
-      gender: params.gender ?? "all",
-      order: params.order ?? "a-z",
-      price: params.price ?? 2000,
-      search: params.search ?? "",
-      size: params.size ?? "all",
+    brand: params.brand ?? "all",
+    category: params.category ?? "all",
+    date: params.date ?? new Date("July 21, 2010"), // nisam jos dodao u filter
+    gender: params.gender ?? "all",
+    order: params.order ?? "asc",
+    price: params.price ?? 2000,
+    search: params.search ?? "",
+    in_stock: params.stock === undefined ? "false" : "true"
   };
-
+  console.log("params.stock: ", params.stock);
   console.log(filterObj);
 
   try {
     const response = await axios(
-      `http://localhost:8080/products?${filterObj.brand === "all" ? "" : `brandName=${params.brand}`}&&${filterObj.category === "all" ? "" : `category=${params.category}`}&&${filterObj.gender === "all" ? "" : `gender=${params.gender}`}`
+      `http://localhost:8080/products?${
+        filterObj.brand === "all" ? "" : `brandName=${params.brand}`
+      }&${
+        filterObj.category === "all" ? "" : `category=${params.category}`
+      }&${
+        filterObj.gender === "all"
+          ? ""
+          : `gender=${params.gender}`
+      }&${filterObj.order === "asc" || filterObj.order === "desc" ? `_sort=name&_order=${filterObj.order}` : (filterObj.order === "price low" ? `_sort=price.current.value&_order=asc` : `_sort=price.current.value&_order=desc`)}&${filterObj.search && `q=${filterObj.search}`}&${filterObj.price && `price.current.value_lte=${filterObj.price}`}`
     );
     const data = response.data;
     return data;
@@ -42,8 +49,8 @@ export const shopLoader = async ({ request }) => {
     console.log(error.response);
   }
 
-    return null;
-  };
+  return null;
+};
 
 const Shop = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -65,9 +72,7 @@ const Shop = () => {
     fetchData();
   }, [currentPage]);
 
-
-   const productLoaderData = useLoaderData();
-   
+  const productLoaderData = useLoaderData();
 
   return (
     <>
