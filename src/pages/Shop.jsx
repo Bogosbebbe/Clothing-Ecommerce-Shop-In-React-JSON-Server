@@ -18,11 +18,19 @@ export const shopLoader = async ({ request }) => {
   // GET /posts?_sort=views&_order=asc
   // GET /posts/1/comments?_sort=votes&_order=asc
 
+  let mydate = Date.parse(params.date);
+  
+  if (mydate && !isNaN(mydate)) {
+    // The date is valid
+    mydate = new Date(mydate).toISOString();
+  } else {
+    mydate = "";
+  }
 
   const filterObj = {
     brand: params.brand ?? "all",
     category: params.category ?? "all",
-    date: params.date ?? new Date("July 21, 2010"), // nisam jos dodao u filter
+    date:  mydate || new Date('05 October 2010 14:48 UTC').toISOString(), // nisam jos dodao u filter
     gender: params.gender ?? "all",
     order: params.order ?? "asc",
     price: params.price ?? 2000,
@@ -30,6 +38,10 @@ export const shopLoader = async ({ request }) => {
     in_stock: params.stock === undefined ? false : true,
     current_page: Number(params.page) || 1
   };
+
+
+
+  // izbacio sam iz URL-a trenutno gte_date=filterObj.date i takodje trenutno iz filterObj-a
 
   try {
     const response = await axios(
@@ -45,14 +57,14 @@ export const shopLoader = async ({ request }) => {
           : `_sort=price.current.value&_order=desc`
       }&${filterObj.search && `q=${filterObj.search}`}&${
         filterObj.price && `price.current.value_lte=${filterObj.price}`
-      }&${filterObj.in_stock === true && `isInStock=${filterObj.in_stock}`}&${`_page=${filterObj.current_page}&_limit=10`}`
+      }&${filterObj.in_stock === true && `isInStock=${filterObj.in_stock}`}&${`_page=${filterObj.current_page}&_limit=10&productionDate_gte=${filterObj.date}`}`
     );
     const data = response.data;
     return {productsData: data, productsLength: data.length, page: filterObj.current_page};
   } catch (error) {
     console.log(error.response);
   }
-  // /posts?_page=7&_limit=20
+  // /posts?views_gte=10
 
   return null;
 };
