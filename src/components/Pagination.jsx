@@ -4,17 +4,13 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
 
 const Pagination = () => {
-
-  
   const productsLoaderData = useLoaderData();
-  const [ page, setPage ] = useState(productsLoaderData.page);
-  
+
   const { search, pathname } = useLocation();
   const navigate = useNavigate();
   const handlePageChange = (pageNumber) => {
     const searchParams = new URLSearchParams(search);
     searchParams.set('page', pageNumber);
-    setPage((prevState) => pageNumber);
     navigate(`${pathname}?${searchParams.toString()}`);
   };
 
@@ -26,17 +22,17 @@ const Pagination = () => {
           className="join-item btn text-4xl flex justify-center"
           onClick={() => {
             
-            if(page === 1){
+            if(productsLoaderData.page === 1){
               return;
             }
-            handlePageChange(page - 1)
+            handlePageChange(productsLoaderData.page - 1)
             window.scrollTo(0, 0)
           
           }}
         >
           <FaCircleArrowLeft />
         </button>
-        <button className="join-item btn text-2xl">Page {page}</button>
+        <button className="join-item btn text-2xl">Page {productsLoaderData.page}</button>
         <button
           className="join-item btn text-4xl flex justify-center"
           onClick={() => {
@@ -45,7 +41,7 @@ const Pagination = () => {
               return;
             }
 
-            handlePageChange(page + 1)
+            handlePageChange(productsLoaderData.page + 1)
             window.scrollTo(0, 0)
           }
           }

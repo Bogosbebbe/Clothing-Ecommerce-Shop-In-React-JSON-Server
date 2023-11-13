@@ -28,7 +28,7 @@ export const shopLoader = async ({ request }) => {
     price: params.price ?? 2000,
     search: params.search ?? "",
     in_stock: params.stock === undefined ? false : true,
-    current_page: params.page || 1
+    current_page: Number(params.page) || 1
   };
 
   try {
