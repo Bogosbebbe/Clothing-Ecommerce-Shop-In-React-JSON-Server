@@ -7,7 +7,7 @@ import {
 } from "../components";
 import "../styles/Shop.css";
 import axios from "axios";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate, useSearchParams } from "react-router-dom";
 import { nanoid } from "nanoid";
 
 export const shopLoader = async ({ request }) => {
@@ -18,6 +18,7 @@ export const shopLoader = async ({ request }) => {
   // GET /posts?_sort=views&_order=asc
   // GET /posts/1/comments?_sort=votes&_order=asc
 
+
   const filterObj = {
     brand: params.brand ?? "all",
     category: params.category ?? "all",
@@ -27,9 +28,8 @@ export const shopLoader = async ({ request }) => {
     price: params.price ?? 2000,
     search: params.search ?? "",
     in_stock: params.stock === undefined ? false : true,
+    current_page: params.page || 1
   };
-  console.log("params.stock: ", params.stock);
-  console.log(filterObj);
 
   try {
     const response = await axios(
@@ -45,38 +45,25 @@ export const shopLoader = async ({ request }) => {
           : `_sort=price.current.value&_order=desc`
       }&${filterObj.search && `q=${filterObj.search}`}&${
         filterObj.price && `price.current.value_lte=${filterObj.price}`
-      }&${filterObj.in_stock === true && `isInStock=${filterObj.in_stock}`}`
+      }&${filterObj.in_stock === true && `isInStock=${filterObj.in_stock}`}&${`_page=${filterObj.current_page}&_limit=10`}`
     );
     const data = response.data;
-    return data;
+    return {productsData: data, productsLength: data.length, page: filterObj.current_page};
   } catch (error) {
     console.log(error.response);
   }
+  // /posts?_page=7&_limit=20
 
   return null;
 };
 
+
+
+
 const Shop = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios(
-          `http://localhost:8080/products?_page=${currentPage}`
-        );
-        const data = response.data;
-        setProducts(data);
-      } catch (error) {
-        console.log(error.response);
-      }
-    };
-
-    fetchData();
-  }, [currentPage]);
 
   const productLoaderData = useLoaderData();
+
 
   return (
     <>
@@ -84,8 +71,8 @@ const Shop = () => {
       <div className="max-w-7xl mx-auto mt-5">
         <Filters />
         <div className="grid grid-cols-4 px-2 gap-y-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 shop-products-grid">
-          {productLoaderData &&
-            productLoaderData.map((product) => (
+          {productLoaderData.productsData &&
+            productLoaderData.productsData.map((product) => (
               <ProductElement
                 key={nanoid()}
                 id={product.id}
@@ -99,11 +86,7 @@ const Shop = () => {
         </div>
       </div>
 
-      <Pagination
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-        products={products}
-      />
+      <Pagination />
     </>
   );
 };

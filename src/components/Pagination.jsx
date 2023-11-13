@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaCircleArrowLeft } from "react-icons/fa6";
 import { FaCircleArrowRight } from "react-icons/fa6";
+import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
 
-const Pagination = ({currentPage, setCurrentPage, products}) => {
+const Pagination = () => {
+
   
+  const productsLoaderData = useLoaderData();
+  const [ page, setPage ] = useState(productsLoaderData.page);
+  
+  const { search, pathname } = useLocation();
+  const navigate = useNavigate();
+  const handlePageChange = (pageNumber) => {
+    const searchParams = new URLSearchParams(search);
+    searchParams.set('page', pageNumber);
+    setPage((prevState) => pageNumber);
+    navigate(`${pathname}?${searchParams.toString()}`);
+  };
 
   return (
     <>
@@ -13,26 +26,26 @@ const Pagination = ({currentPage, setCurrentPage, products}) => {
           className="join-item btn text-4xl flex justify-center"
           onClick={() => {
             
-            if(currentPage === 1){
+            if(page === 1){
               return;
             }
-            setCurrentPage(currentPage - 1)
+            handlePageChange(page - 1)
             window.scrollTo(0, 0)
           
           }}
         >
           <FaCircleArrowLeft />
         </button>
-        <button className="join-item btn text-2xl">Page {currentPage}</button>
+        <button className="join-item btn text-2xl">Page {page}</button>
         <button
           className="join-item btn text-4xl flex justify-center"
           onClick={() => {
 
-            if(products.length < 10){
+            if(productsLoaderData.productsLength < 10){
               return;
             }
 
-            setCurrentPage(currentPage + 1)
+            handlePageChange(page + 1)
             window.scrollTo(0, 0)
           }
           }

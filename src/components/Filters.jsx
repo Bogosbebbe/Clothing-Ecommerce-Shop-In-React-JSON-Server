@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FormInput from "./FormInput";
-import { Form, Link } from "react-router-dom";
+import { Form, Link, useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import FormRange from "./FormRange";
 import FormSelect from "./FormSelect";
 import FormDatePicker from "./FormDatePicker";
@@ -63,6 +63,9 @@ const Filters = () => {
     "Dr Martens",
     "River Island",
   ]);
+
+
+
   return (
     <Form className="bg-base-200 rounded-md px-8 py-4 grid gap-x-4  gap-y-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center">
       {/* SEARCH */}
@@ -126,7 +129,7 @@ const Filters = () => {
       >
         search
       </button>
-      <Link to="/shop" className="btn btn-primary btn-sm">
+      <Link to="/shop?reset=true" className="btn btn-primary btn-sm">
         reset
       </Link>
     </Form>
