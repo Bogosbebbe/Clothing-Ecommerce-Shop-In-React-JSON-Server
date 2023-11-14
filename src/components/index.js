@@ -19,3 +19,6 @@ export { default as FormInput } from "./FormInput";
 export { default as FormSelect } from "./FormSelect";
 export { default as FormRange } from "./FormRange";
 export { default as FormDatePicker } from "./FormDatePicker";
+export { default as SingleProductReviews } from "./SingleProductReviews";
+export { default as SingleReview } from "./SingleReview";
+export { default as RatingPercentage } from "./RatingPercentage";

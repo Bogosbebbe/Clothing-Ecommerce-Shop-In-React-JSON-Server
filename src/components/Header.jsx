@@ -158,7 +158,7 @@ const Header = () => {
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                 <div className="w-10 rounded-full">
-                  <img src="/src/assets/user profile photo.jpg" />
+                  <img src="https://xsgames.co/randomusers/avatar.php?g=male" />
                 </div>
               </label>
               <ul
@@ -172,9 +172,6 @@ const Header = () => {
                   >
                     Profile
                   </Link>
-                </li>
-                <li>
-                  <a className="text-accent-content">Settings</a>
                 </li>
                 <li>
                   <Link to="/login" className="text-accent-content">

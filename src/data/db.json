@@ -16,6 +16,28 @@
         42
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "userImage": "/src/assets/user profile photo 2.jpg",
+          "location": "United Kingdom",
+          "rating": 4,
+          "date": "March 3, 2017",
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Andres Papp",
+          "userImage": "/src/assets/user profile photo 3.jpg",
+          "location": "Portugal",
+          "rating": 3,
+          "date": "March 3, 2020",
+          "reviewTitle": "Excellent boots!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        }
+      ],
       "totalReviewCount": 30,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -52,6 +74,16 @@
         44
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 30,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -88,6 +120,16 @@
         44
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 30,
       "productionDate": "2010-10-31T09:00:00.594Z",
       "price": {
@@ -124,6 +166,16 @@
         44
       ],
       "rating": 2,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 210,
       "productionDate": "2019-10-31T09:00:00.594Z",
       "price": {
@@ -159,6 +211,16 @@
         44
       ],
       "rating": 1,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 40,
       "productionDate": "2019-10-31T09:00:00.594Z",
       "price": {
@@ -194,6 +256,16 @@
         44
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -229,6 +301,16 @@
         44
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 7,
       "productionDate": "2013-10-31T09:00:00.594Z",
       "price": {
@@ -264,6 +346,16 @@
         44
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 11,
       "productionDate": "2023-10-31T09:00:00.594Z",
       "price": {
@@ -300,6 +392,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 320,
       "productionDate": "2017-10-31T09:00:00.594Z",
       "price": {
@@ -336,6 +438,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3200,
       "productionDate": "2016-10-31T09:00:00.594Z",
       "price": {
@@ -372,6 +484,16 @@
         46
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3120,
       "productionDate": "2010-10-31T09:00:00.594Z",
       "price": {
@@ -408,6 +530,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 230,
       "productionDate": "2011-10-31T09:00:00.594Z",
       "price": {
@@ -444,6 +576,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5530,
       "productionDate": "2016-10-31T09:00:00.594Z",
       "price": {
@@ -480,6 +622,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 130,
       "productionDate": "2023-10-31T09:00:00.594Z",
       "price": {
@@ -515,6 +667,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3770,
       "productionDate": "2016-10-31T09:00:00.594Z",
       "price": {
@@ -550,6 +712,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 12330,
       "productionDate": "2011-10-31T09:00:00.594Z",
       "price": {
@@ -585,6 +757,16 @@
         46
       ],
       "rating": 1,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3,
       "productionDate": "2012-10-31T09:00:00.594Z",
       "price": {
@@ -620,6 +802,16 @@
         46
       ],
       "rating": 2,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -655,6 +847,16 @@
         46
       ],
       "rating": 1,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 123,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -690,6 +892,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 430,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -725,6 +937,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 530,
       "productionDate": "2011-10-31T09:00:00.594Z",
       "price": {
@@ -760,6 +982,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2012-10-31T09:00:00.594Z",
       "price": {
@@ -795,6 +1027,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 12230,
       "productionDate": "2013-10-31T09:00:00.594Z",
       "price": {
@@ -830,6 +1072,16 @@
         46
       ],
       "rating": 1,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 8830,
       "productionDate": "2017-10-31T09:00:00.594Z",
       "price": {
@@ -865,6 +1117,16 @@
         46
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 2130,
       "productionDate": "2019-10-31T09:00:00.594Z",
       "price": {
@@ -900,6 +1162,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 2,
       "productionDate": "2020-10-31T09:00:00.594Z",
       "price": {
@@ -935,6 +1207,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 210,
       "productionDate": "2023-10-31T09:00:00.594Z",
       "price": {
@@ -970,6 +1252,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3210,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -1005,6 +1297,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 130,
       "productionDate": "2018-10-31T09:00:00.594Z",
       "price": {
@@ -1040,6 +1342,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3550,
       "productionDate": "2015-10-31T09:00:00.594Z",
       "price": {
@@ -1075,6 +1387,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 90000,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1110,6 +1432,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2023-10-31T09:00:00.594Z",
       "price": {
@@ -1145,6 +1477,16 @@
         46
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 559,
       "productionDate": "2017-10-31T09:00:00.594Z",
       "price": {
@@ -1180,6 +1522,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2015-10-31T09:00:00.594Z",
       "price": {
@@ -1215,6 +1567,16 @@
         46
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2013-10-31T09:00:00.594Z",
       "price": {
@@ -1251,6 +1613,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 120,
       "productionDate": "2014-10-31T09:00:00.594Z",
       "price": {
@@ -1286,6 +1658,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 830,
       "productionDate": "2015-10-31T09:00:00.594Z",
       "price": {
@@ -1321,6 +1703,16 @@
         46
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 20,
       "productionDate": "2023-10-31T09:00:00.594Z",
       "price": {
@@ -1356,6 +1748,16 @@
         46
       ],
       "rating": 1,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 2,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -1391,6 +1793,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 12330,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -1426,6 +1838,16 @@
         46
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 21330,
       "productionDate": "2018-10-31T09:00:00.594Z",
       "price": {
@@ -1461,6 +1883,16 @@
         46
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5530,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -1496,6 +1928,16 @@
         46
       ],
       "rating": 1,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3120,
       "productionDate": "2020-10-31T09:00:00.594Z",
       "price": {
@@ -1529,6 +1971,16 @@
         "XL"
       ],
       "rating": 2,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3012,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1562,6 +2014,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 31230,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1595,6 +2057,16 @@
         "XL"
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 31230,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1628,6 +2100,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1661,6 +2143,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1695,6 +2187,16 @@
         44
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 12330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1729,6 +2231,16 @@
         44
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 2130,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1764,6 +2276,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5460,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -1797,6 +2319,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 6780,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1830,6 +2362,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 870,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1864,6 +2406,16 @@
         44
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 89980,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1897,6 +2449,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 123130,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -1930,6 +2492,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1963,6 +2535,16 @@
         40
       ],
       "rating": 1,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3123,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -1996,6 +2578,16 @@
         40
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 50,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2029,6 +2621,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 12,
       "productionDate": "2015-10-31T09:00:00.594Z",
       "price": {
@@ -2062,6 +2664,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 20,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2095,6 +2707,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 130,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2128,6 +2750,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 20,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2161,6 +2793,16 @@
         "XL"
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 10,
       "productionDate": "2020-10-31T09:00:00.594Z",
       "price": {
@@ -2194,6 +2836,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 310,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2228,6 +2880,16 @@
         40
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 2000,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2262,6 +2924,16 @@
         "XL"
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 7000,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2295,6 +2967,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2016-10-31T09:00:00.594Z",
       "price": {
@@ -2329,6 +3011,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 9230,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2362,6 +3054,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 82480,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2395,6 +3097,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 2930,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2428,6 +3140,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 9990,
       "productionDate": "2012-10-31T09:00:00.594Z",
       "price": {
@@ -2461,6 +3183,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3000,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2496,6 +3228,16 @@
         43
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 2710,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2531,6 +3273,16 @@
         43
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 3210,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2564,6 +3316,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 130,
       "productionDate": "2010-10-31T09:00:00.594Z",
       "price": {
@@ -2597,6 +3359,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 630,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2630,6 +3402,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2663,6 +3445,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 530,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2698,6 +3490,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 31230,
       "productionDate": "2009-10-31T09:00:00.594Z",
       "price": {
@@ -2731,6 +3533,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5430,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2764,6 +3576,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5630,
       "productionDate": "2018-10-31T09:00:00.594Z",
       "price": {
@@ -2797,6 +3619,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 8730,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2830,6 +3662,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 68730,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2863,6 +3705,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 7830,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2896,6 +3748,16 @@
         "XL"
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 67830,
       "productionDate": "2012-10-31T09:00:00.594Z",
       "price": {
@@ -2931,6 +3793,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 8730,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -2967,6 +3839,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 8730,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3002,6 +3884,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 34230,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3037,6 +3929,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 324230,
       "productionDate": "2018-10-31T09:00:00.594Z",
       "price": {
@@ -3072,6 +3974,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 12330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3107,6 +4019,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 4330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3142,6 +4064,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 4630,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3177,6 +4109,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 35430,
       "productionDate": "2019-10-31T09:00:00.594Z",
       "price": {
@@ -3212,6 +4154,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 34230,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3247,6 +4199,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 24330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3282,6 +4244,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 34530,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3317,6 +4289,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 24330,
       "productionDate": "2012-10-31T09:00:00.594Z",
       "price": {
@@ -3352,6 +4334,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 23430,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3387,6 +4379,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 56730,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3422,6 +4424,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 8730,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3457,6 +4469,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 8730,
       "productionDate": "2015-10-31T09:00:00.594Z",
       "price": {
@@ -3492,6 +4514,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 56730,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3527,6 +4559,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 67830,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3562,6 +4604,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5630,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3597,6 +4649,16 @@
         45
       ],
       "rating": 2,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 230,
       "productionDate": "2016-10-31T09:00:00.594Z",
       "price": {
@@ -3632,6 +4694,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2016-10-31T09:00:00.594Z",
       "price": {
@@ -3667,6 +4739,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 1230,
       "productionDate": "2017-10-31T09:00:00.594Z",
       "price": {
@@ -3702,6 +4784,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 21330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3737,6 +4829,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 30,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3772,6 +4874,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 2330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3807,6 +4919,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 21330,
       "productionDate": "2012-10-31T09:00:00.594Z",
       "price": {
@@ -3842,6 +4964,16 @@
         45
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 21330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3877,6 +5009,16 @@
         45
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 35430,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3912,6 +5054,16 @@
         45
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 34530,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -3947,6 +5099,16 @@
         45
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 530,
       "productionDate": "2015-10-31T09:00:00.594Z",
       "price": {
@@ -3982,6 +5144,16 @@
         45
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 65430,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4017,6 +5189,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5630,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4052,6 +5234,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 6530,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4087,6 +5279,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 4530,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4122,6 +5324,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 12330,
       "productionDate": "2021-10-31T09:00:00.594Z",
       "price": {
@@ -4157,6 +5369,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 12330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4193,6 +5415,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 23430,
       "productionDate": "2020-10-31T09:00:00.594Z",
       "price": {
@@ -4228,6 +5460,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 4630,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4264,6 +5506,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 56730,
       "productionDate": "2019-10-31T09:00:00.594Z",
       "price": {
@@ -4300,6 +5552,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 5730,
       "productionDate": "2018-10-31T09:00:00.594Z",
       "price": {
@@ -4335,6 +5597,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 7830,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4370,6 +5642,16 @@
         45
       ],
       "rating": 5,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 7830,
       "productionDate": "2020-10-31T09:00:00.594Z",
       "price": {
@@ -4405,6 +5687,16 @@
         45
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 630,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4440,6 +5732,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 130,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4475,6 +5777,16 @@
         45
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 21330,
       "productionDate": "2022-10-31T09:00:00.594Z",
       "price": {
@@ -4509,6 +5821,16 @@
         "XL"
       ],
       "rating": 4,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 310,
       "productionDate": "2012-10-31T09:00:00.594Z",
       "price": {
@@ -4542,6 +5864,16 @@
         "XL"
       ],
       "rating": 3,
+      "reviews": [
+        {
+          "username": "Darron Miloscia",
+          "location": "United Kingdom",
+          "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+          "date": "March 3, 2017"
+        }
+      ],
       "totalReviewCount": 31230,
       "productionDate": "2009-10-31T09:00:00.594Z",
       "price": {
@@ -4570,7 +5902,61 @@
       "phone": "061 1233321",
       "adress": "Marka Markovica 100",
       "password": "1233214321",
-      "userWishlist": []
+      "userWishlist": [
+        {
+          "id": 204349751,
+          "title": "Reebok BB 4000 II sneakers in white with blue detail",
+          "image": "images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
+          "rating": 3,
+          "reviews": [
+            {
+              "username": "Darron Miloscia",
+              "location": "United Kingdom",
+              "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+              "date": "March 3, 2017"
+            }
+          ],
+          "price": 90,
+          "brandName": "Reebok",
+          "amount": 1,
+          "selectedSize": 37,
+          "isInWishList": false
+        }
+      ]
+    },
+    {
+      "id": "UClll_XZPf2tgJKQMehI6",
+      "name": "Marko",
+      "lastname": "Markovic",
+      "email": "marko@gmail.com",
+      "phone": "061123321",
+      "adress": "Aleksa Aleksica 22",
+      "password": "1233214321",
+      "userWishlist": [
+        {
+          "id": 204453531,
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "reviews": [
+            {
+              "username": "Darron Miloscia",
+              "location": "United Kingdom",
+              "rating": 4,
+          "reviewTitle": "Thinking to buy another one!",
+          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+              "date": "March 3, 2017"
+            }
+          ],
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": false
+        }
+      ]
     }
   ]
 }
