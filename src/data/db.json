@@ -7,35 +7,35 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42
-      ],
+      "availableSizes": [37, 38, 39, 40, 41, 42],
       "rating": 4,
       "reviews": [
         {
           "username": "Darron Miloscia",
           "userImage": "/src/assets/user profile photo 2.jpg",
           "location": "United Kingdom",
-          "rating": 4,
+          "rating": 5,
           "date": "March 3, 2017",
           "reviewTitle": "Thinking to buy another one!",
           "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
-
         },
         {
           "username": "Andres Papp",
           "userImage": "/src/assets/user profile photo 3.jpg",
           "location": "Portugal",
-          "rating": 3,
+          "rating": 4,
           "date": "March 3, 2020",
-          "reviewTitle": "Excellent boots!",
+          "reviewTitle": "Very good boots!",
           "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
-
+        },
+        {
+          "username": "Twana Davinroy",
+          "userImage": "/src/assets/user profile photo 3 f.jpg",
+          "location": "Germany",
+          "rating": 3,
+          "date": "March 3, 2023",
+          "reviewTitle": "It can be better!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
         }
       ],
       "totalReviewCount": 30,
@@ -63,25 +63,35 @@
       "isInStock": true,
       "gender": "female",
       "category": "shoes",
-      "availableSizes": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [37, 38, 39, 40, 41, 42, 43, 44],
       "rating": 5,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
+          "username": "Gabriele Krein",
+          "userImage": "/src/assets/user profile photo 1 f.jpg",
+          "location": "France",
+          "rating": 5,
+          "date": "March 3, 2023",
+          "reviewTitle": "The best product for women!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Ashlie Amon",
+          "userImage": "/src/assets/user profile photo 2 f.jpg",
+          "location": "France",
           "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "date": "March 3, 2021",
+          "reviewTitle": "Not perfect but very good!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Rosenda Kukucka",
+          "userImage": "/src/assets/user profile photo 6 f.jpg",
+          "location": "Greece",
+          "rating": 4,
+          "date": "March 3, 2021",
+          "reviewTitle": "I will buy 10 of these!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
         }
       ],
       "totalReviewCount": 30,
@@ -109,25 +119,35 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [37, 38, 39, 40, 41, 42, 43, 44],
       "rating": 3,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
-          "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "username": "Bennett Bushley",
+          "userImage": "/src/assets/user profile photo 10.jpg",
+          "location": "India",
+          "rating": 5,
+          "date": "March 3, 2023",
+          "reviewTitle": "The best sneakers in the whole world!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Bennett Bushley",
+          "userImage": "/src/assets/user profile photo 2.jpg",
+          "location": "China",
+          "rating": 5,
+          "date": "March 3, 2023",
+          "reviewTitle": "This sneakers are golden!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Milan Dragić",
+          "userImage": "/src/assets/user profile photo 1.jpg",
+          "location": "Serbia",
+          "rating": 1,
+          "date": "March 3, 2023",
+          "reviewTitle": "The best product for women!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
         }
       ],
       "totalReviewCount": 30,
@@ -156,24 +176,35 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [38, 39, 40, 41, 42, 43, 44],
       "rating": 2,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
-          "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "username": "Darwin Jeffres",
+          "userImage": "/src/assets/user profile photo 5.jpg",
+          "location": "Gibraltar",
+          "rating": 1,
+          "date": "January 3, 2023",
+          "reviewTitle": "I expected more from Nike",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Armando Robertus",
+          "userImage": "/src/assets/user profile photo 7.jpg",
+          "location": "England",
+          "rating": 2,
+          "date": "January 2, 2023",
+          "reviewTitle": "I don't like these sneakers",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Art Colombo",
+          "userImage": "/src/assets/user profile photo 8.jpg",
+          "location": "Senegal",
+          "rating": 1,
+          "date": "January 3, 2023",
+          "reviewTitle": "Very bad",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
         }
       ],
       "totalReviewCount": 210,
@@ -201,24 +232,35 @@
       "isInStock": false,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [38, 39, 40, 41, 42, 43, 44],
       "rating": 1,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
-          "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "username": "Edwin Stegura",
+          "userImage": "/src/assets/user profile photo 1.jpg",
+          "location": "Pakistan",
+          "rating": 1,
+          "date": "January 3, 2023",
+          "reviewTitle": "If threre is 0 I would give it",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Art Colombo",
+          "userImage": "/src/assets/user profile photo 8.jpg",
+          "location": "Mexico",
+          "rating": 3,
+          "date": "January 1, 2023",
+          "reviewTitle": "Good shoes",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Paris Boye",
+          "userImage": "/src/assets/user profile photo 4.jpg",
+          "location": "China",
+          "rating": 1,
+          "date": "January 3, 2023",
+          "reviewTitle": "Very bad",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
         }
       ],
       "totalReviewCount": 40,
@@ -246,24 +288,35 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [38, 39, 40, 41, 42, 43, 44],
       "rating": 4,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
+          "username": "Paris Boye",
+          "userImage": "/src/assets/user profile photo 7.jpg",
+          "location": "China",
           "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "date": "January 3, 2023",
+          "reviewTitle": "Very good for males",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Ronald Haisten",
+          "userImage": "/src/assets/user profile photo 3.jpg",
+          "location": "Denmark",
+          "rating": 5,
+          "date": "January 3, 2023",
+          "reviewTitle": "Simple and very good",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Tula Gunnip",
+          "userImage": "/src/assets/user profile photo 7 f.jpg",
+          "location": "Egipt",
+          "rating": 5,
+          "date": "January 3, 2023",
+          "reviewTitle": "Good present for my boyfriend",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
         }
       ],
       "totalReviewCount": 5,
@@ -291,24 +344,37 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [38, 39, 40, 41, 42, 43, 44],
       "rating": 3,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
+          "username": "Tula Gunnip",
+          "userImage": "/src/assets/user profile photo 11.jpg",
+          "location": "Italy",
+          "rating": 3,
+          "date": "January 3, 2023",
+          "reviewTitle": "Good present for my boyfriend",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+        },
+        {
+          "username": "Alden Stropki",
+          "userImage": "/src/assets/user profile photo 7.jpg",
+          "location": "Bosnia",
           "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "date": "February 3, 2023",
+          "reviewTitle": "Good and practical",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Trenton Schairer",
+          "userImage": "/src/assets/user profile photo 4.jpg",
+          "location": "Germany",
+          "rating": 5,
+          "date": "December 31, 2023",
+          "reviewTitle": "Best present for new year",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
       ],
       "totalReviewCount": 7,
@@ -336,24 +402,38 @@
       "isInStock": false,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [38, 39, 40, 41, 42, 43, 44],
       "rating": 4,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
+          "username": "Trenton Schairer",
+          "userImage": "/src/assets/user profile photo 7.jpg",
+          "location": "Germany",
+          "rating": 5,
+          "date": "December 31, 2023",
+          "reviewTitle": "Best present for new year",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "John Markin",
+          "userImage": "/src/assets/user profile photo 1.jpg",
+          "location": "Greece",
           "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "date": "January 31, 2023",
+          "reviewTitle": "I like these sneakers",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Wilber Risola",
+          "userImage": "/src/assets/user profile photo 2.jpg",
+          "location": "Switzerland",
+          "rating": 5,
+          "date": "December 31, 2023",
+          "reviewTitle": "This is excellent product by Puma!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
       ],
       "totalReviewCount": 11,
@@ -382,24 +462,38 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
+          "username": "Luka Modrić",
+          "userImage": "/src/assets/user profile photo 9.jpg",
+          "location": "Croatia",
+          "rating": 5,
+          "date": "December 31, 2023",
+          "reviewTitle": "Best sneakers for sport!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Leon Westphalen",
+          "userImage": "/src/assets/user profile photo 2.jpg",
+          "location": "Japan",
           "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "date": "Januarz 31, 2023",
+          "reviewTitle": "I am very happy with this product, but it is not perfect!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Berta Ruediger",
+          "userImage": "/src/assets/user profile photo 2 f.jpg",
+          "location": "England",
+          "rating": 5,
+          "date": "Januarz 31, 2023",
+          "reviewTitle": "Excellent present for father's birthday!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
       ],
       "totalReviewCount": 320,
@@ -428,25 +522,40 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
-          "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "username": "Hae Studer",
+          "userImage": "/src/assets/user profile photo 3 f.jpg",
+          "location": "England",
+          "rating": 5,
+          "date": "January 31, 2023",
+          "reviewTitle": "Excellent present for father's birthday!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Earnest Monie",
+          "userImage": "/src/assets/user profile photo 5.jpg",
+          "location": "Holand",
+          "rating": 5,
+          "date": "January 31, 2023",
+          "reviewTitle": "Sooo goood sneakers!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Hae Studer",
+          "userImage": "/src/assets/user profile photo 8.jpg",
+          "location": "England",
+          "rating": 5,
+          "date": "January 31, 2023",
+          "reviewTitle": "The Best Sneakers In The World!!!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
+        
       ],
       "totalReviewCount": 3200,
       "productionDate": "2016-10-31T09:00:00.594Z",
@@ -474,24 +583,38 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 3,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
-          "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "username": "Benedict Pojar",
+          "userImage": "/src/assets/user profile photo 2.jpg",
+          "location": "England",
+          "rating": 3,
+          "date": "January 31, 2023",
+          "reviewTitle": "Solid sneakers",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Henry Buller",
+          "userImage": "/src/assets/user profile photo 8.jpg",
+          "location": "England",
+          "rating": 5,
+          "date": "January 31, 2023",
+          "reviewTitle": "Soo goood sneakers!!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Earnest Monie",
+          "userImage": "/src/assets/user profile photo 3.jpg",
+          "location": "Egypt",
+          "rating": 1,
+          "date": "January 31, 2023",
+          "reviewTitle": "I want my money back",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
       ],
       "totalReviewCount": 3120,
@@ -520,24 +643,38 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
+          "username": "Cristopher Sciano",
+          "userImage": "/src/assets/user profile photo 8.jpg",
+          "location": "Holand",
           "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "date": "February 31, 2023",
+          "reviewTitle": "Excellent sneakers",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Tommie Huesing",
+          "userImage": "/src/assets/user profile photo 9.jpg",
+          "location": "Austria",
+          "rating": 4,
+          "date": "February 31, 2023",
+          "reviewTitle": "Very good and affordable sneakers",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Bryant Garns",
+          "userImage": "/src/assets/user profile photo 7.jpg",
+          "location": "USA",
+          "rating": 5,
+          "date": "August 31, 2023",
+          "reviewTitle": "Simple and elegant",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
       ],
       "totalReviewCount": 230,
@@ -566,24 +703,38 @@
       "isInStock": false,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
+          "username": "Jerald Rosemond",
+          "userImage": "/src/assets/user profile photo 2.jpg",
+          "location": "USA",
+          "rating": 5,
+          "date": "September 31, 2023",
+          "reviewTitle": "Soooo fantastic!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Elwood Winstone",
+          "userImage": "/src/assets/user profile photo 4.jpg",
+          "location": "Canada",
+          "rating": 5,
+          "date": "September 31, 2023",
+          "reviewTitle": "These sneakers are sooo goood!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Claude Soots",
+          "userImage": "/src/assets/user profile photo 2.jpg",
+          "location": "Denmark",
           "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "date": "October 31, 2023",
+          "reviewTitle": "They are good but...!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
       ],
       "totalReviewCount": 5530,
@@ -612,24 +763,38 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
+          "username": "Manuel Lefleur",
+          "userImage": "/src/assets/user profile photo 5.jpg",
+          "location": "Denmark",
           "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "date": "October 29, 2023",
+          "reviewTitle": "They are good but...!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Lewis Breslin",
+          "userImage": "/src/assets/user profile photo 6.jpg",
+          "location": "USA",
+          "rating": 5,
+          "date": "October 29, 2023",
+          "reviewTitle": "They are good but...!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
+        },
+        {
+          "username": "Lewis Lefleur",
+          "userImage": "/src/assets/user profile photo 5.jpg",
+          "location": "USA",
+          "rating": 5,
+          "date": "November 29, 2022",
+          "reviewTitle": "I am happy with these sneakers...!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
       ],
       "totalReviewCount": 130,
@@ -657,24 +822,18 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
-          "username": "Darron Miloscia",
-          "location": "United Kingdom",
-          "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-          "date": "March 3, 2017"
+          "username": "Lewis Lefleur",
+          "userImage": "/src/assets/user profile photo 5.jpg",
+          "location": "USA",
+          "rating": 5,
+          "date": "November 29, 2022",
+          "reviewTitle": "I am happy with these sneakers...!!!",
+          "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, vero distinctio maxime quidem aperiam ut expedita voluptate similique, officia, maiores a minus fugit explicabo dolor iure quisquam in voluptatibus ipsa facilis aliquid. Labore nulla quibusdam adipisci eligendi eum accusamus repellat!"
+
         }
       ],
       "totalReviewCount": 3770,
@@ -702,15 +861,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
@@ -747,15 +898,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 1,
       "reviews": [
         {
@@ -792,15 +935,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 2,
       "reviews": [
         {
@@ -837,15 +972,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 1,
       "reviews": [
         {
@@ -882,15 +1009,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -927,15 +1046,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
@@ -972,15 +1083,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
@@ -1017,15 +1120,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
@@ -1062,15 +1157,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 1,
       "reviews": [
         {
@@ -1107,15 +1194,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 3,
       "reviews": [
         {
@@ -1152,15 +1231,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
@@ -1197,15 +1268,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
@@ -1242,15 +1305,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
@@ -1287,15 +1342,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1332,15 +1379,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1377,15 +1416,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1422,15 +1453,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1467,15 +1490,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 5,
       "reviews": [
         {
@@ -1512,15 +1527,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1557,15 +1564,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 3,
       "reviews": [
         {
@@ -1603,15 +1602,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1648,15 +1639,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "heels",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1693,15 +1676,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 3,
       "reviews": [
         {
@@ -1738,15 +1713,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 1,
       "reviews": [
         {
@@ -1783,15 +1750,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1828,15 +1787,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 4,
       "reviews": [
         {
@@ -1873,15 +1824,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 3,
       "reviews": [
         {
@@ -1918,15 +1861,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
-      ],
+      "availableSizes": [40, 41, 42, 43, 44, 45, 46],
       "rating": 1,
       "reviews": [
         {
@@ -1963,13 +1898,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 2,
       "reviews": [
         {
@@ -2006,13 +1935,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "jackets",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2049,13 +1972,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "caps",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 3,
       "reviews": [
         {
@@ -2092,13 +2009,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shorts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2135,13 +2046,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "sweaters",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2178,14 +2083,7 @@
       "isInStock": false,
       "gender": "male",
       "category": "sneakers",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44],
       "rating": 5,
       "reviews": [
         {
@@ -2222,14 +2120,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "sneakers",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44],
       "rating": 4,
       "reviews": [
         {
@@ -2268,13 +2159,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -2311,13 +2196,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2354,13 +2233,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "boots",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -2397,14 +2270,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44],
       "rating": 3,
       "reviews": [
         {
@@ -2441,13 +2307,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "bags",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -2484,13 +2344,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2527,13 +2381,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        36,
-        37,
-        38,
-        39,
-        40
-      ],
+      "availableSizes": [36, 37, 38, 39, 40],
       "rating": 1,
       "reviews": [
         {
@@ -2570,13 +2418,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shirts",
-      "availableSizes": [
-        36,
-        37,
-        38,
-        39,
-        40
-      ],
+      "availableSizes": [36, 37, 38, 39, 40],
       "rating": 4,
       "reviews": [
         {
@@ -2613,13 +2455,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2656,13 +2492,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2699,13 +2529,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2742,13 +2566,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "overshirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -2785,13 +2603,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 3,
       "reviews": [
         {
@@ -2828,13 +2640,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "pants",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -2871,14 +2677,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "jeans",
-      "availableSizes": [
-        35,
-        36,
-        37,
-        38,
-        39,
-        40
-      ],
+      "availableSizes": [35, 36, 37, 38, 39, 40],
       "rating": 4,
       "reviews": [
         {
@@ -2916,13 +2715,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "sweaters",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 3,
       "reviews": [
         {
@@ -2959,13 +2752,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -3003,13 +2790,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shorts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -3046,13 +2827,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3089,13 +2864,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -3132,13 +2901,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3175,13 +2938,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "socks",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -3218,15 +2975,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43
-      ],
+      "availableSizes": [37, 38, 39, 40, 41, 42, 43],
       "rating": 5,
       "reviews": [
         {
@@ -3263,15 +3012,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43
-      ],
+      "availableSizes": [37, 38, 39, 40, 41, 42, 43],
       "rating": 5,
       "reviews": [
         {
@@ -3308,13 +3049,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "t-shirts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3351,13 +3086,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "jackets",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3394,13 +3123,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "jackets",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -3437,13 +3160,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "jackets",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3480,15 +3197,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "boots",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -3525,13 +3234,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "caps",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3568,13 +3271,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "caps",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3611,13 +3308,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "caps",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3654,13 +3345,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "belts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3697,13 +3382,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "belts",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3740,13 +3419,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 5,
       "reviews": [
         {
@@ -3783,15 +3456,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -3829,15 +3494,7 @@
       "isInStock": false,
       "gender": "male",
       "category": "boots",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -3874,15 +3531,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -3919,15 +3568,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -3964,15 +3605,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4009,15 +3642,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4054,15 +3679,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "boots",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -4099,15 +3716,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -4144,15 +3753,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4189,15 +3790,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4234,15 +3827,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4279,15 +3864,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4324,15 +3901,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4369,15 +3938,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "boots",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4414,15 +3975,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4459,15 +4012,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4504,15 +4049,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4549,15 +4086,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4594,15 +4123,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4639,15 +4160,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 2,
       "reviews": [
         {
@@ -4684,15 +4197,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "slippers",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -4729,15 +4234,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -4774,15 +4271,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -4819,15 +4308,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -4864,15 +4345,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -4909,15 +4382,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -4954,15 +4419,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 3,
       "reviews": [
         {
@@ -4999,15 +4456,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "boots",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 3,
       "reviews": [
         {
@@ -5044,15 +4493,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 3,
       "reviews": [
         {
@@ -5089,15 +4530,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 3,
       "reviews": [
         {
@@ -5134,15 +4567,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 3,
       "reviews": [
         {
@@ -5179,15 +4604,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "boots",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -5224,15 +4641,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "slippers",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -5269,15 +4678,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "boots",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -5314,15 +4715,7 @@
       "isInStock": true,
       "gender": "female",
       "category": "slippers",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -5359,15 +4752,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -5405,15 +4790,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -5450,15 +4827,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -5496,15 +4865,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -5542,15 +4903,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -5587,15 +4940,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "boots",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -5632,15 +4977,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 5,
       "reviews": [
         {
@@ -5677,15 +5014,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "slippers",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 3,
       "reviews": [
         {
@@ -5722,15 +5051,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -5767,15 +5088,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45
-      ],
+      "availableSizes": [39, 40, 41, 42, 43, 44, 45],
       "rating": 4,
       "reviews": [
         {
@@ -5813,13 +5126,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "trainers",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 4,
       "reviews": [
         {
@@ -5856,13 +5163,7 @@
       "isInStock": true,
       "gender": "male",
       "category": "shoes",
-      "availableSizes": [
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "availableSizes": ["XS", "S", "M", "L", "XL"],
       "rating": 3,
       "reviews": [
         {
@@ -5913,8 +5214,8 @@
               "username": "Darron Miloscia",
               "location": "United Kingdom",
               "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+              "reviewTitle": "Thinking to buy another one!",
+              "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
               "date": "March 3, 2017"
             }
           ],
@@ -5945,8 +5246,8 @@
               "username": "Darron Miloscia",
               "location": "United Kingdom",
               "rating": 4,
-          "reviewTitle": "Thinking to buy another one!",
-          "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
+              "reviewTitle": "Thinking to buy another one!",
+              "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
               "date": "March 3, 2017"
             }
           ],
