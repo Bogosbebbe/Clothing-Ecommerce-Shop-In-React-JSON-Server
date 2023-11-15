@@ -11,7 +11,8 @@ import {
   SingleProduct,
   Wishlist,
   Profile,
-  Search
+  Search,
+  ThankYou
 } from "./pages";
 import { landingLoader } from "./pages/Landing";
 import { singleProductLoader } from "./pages/SingleProduct";
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path:"search",
         element: <Search />
+      },
+      {
+        path:"thank-you",
+        element: <ThankYou />
       }
     ],
   },

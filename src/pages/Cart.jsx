@@ -17,8 +17,8 @@ const Cart = () => {
         <div className='lg:col-span-4 lg:pl-4'>
           <CartTotals />
           {loginState ? (
-            <Link to='/checkout' className='btn bg-blue-600 hover:bg-blue-500 text-white btn-block mt-8'>
-              proceed to checkout
+            <Link to='/thank-you' className='btn bg-blue-600 hover:bg-blue-500 text-white btn-block mt-8'>
+              order now
             </Link>
           ) : (
             <Link to='/login' className='btn bg-blue-600 hover:bg-blue-500 btn-block text-white mt-8'>
