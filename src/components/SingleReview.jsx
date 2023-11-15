@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -12,9 +13,9 @@ const SingleReview = ({ reviewObj }) => {
   for (let i = 0; i < reviewObj?.rating; i++) {
     rating[i] = "full star";
   }
-  console.log(rating);
+
   return (
-    <article>
+    <article className="mb-10">
       <div className="flex items-center mb-4">
         <img
           className="w-10 h-10 me-4 rounded-full"
@@ -33,6 +34,7 @@ const SingleReview = ({ reviewObj }) => {
           if (item === "full star") {
             return (
               <svg
+                key={nanoid()}
                 className="w-4 h-4 text-yellow-300"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +47,7 @@ const SingleReview = ({ reviewObj }) => {
           } else {
             return (
               <svg
+                key={nanoid()}
                 className="w-4 h-4 text-gray-300 dark:text-gray-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,12 +71,6 @@ const SingleReview = ({ reviewObj }) => {
         </p>
       </footer>
       <p className="mb-2 text-accent-content">{reviewObj.reviewText}</p>
-      <Link
-        to="#"
-        className="block mb-5 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500"
-      >
-        Read more
-      </Link>
     </article>
   );
 };
