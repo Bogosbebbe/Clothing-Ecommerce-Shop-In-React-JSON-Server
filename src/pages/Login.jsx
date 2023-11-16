@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { SectionTitle } from "../components";
 import { toast } from "react-toastify";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { store } from "../store";
 import { loginUser, logoutUser } from "../features/auth/authSlice";
 
@@ -11,10 +11,13 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const loginState = useSelector((state) => state.auth.isLoggedIn);
 
   useEffect(() => {
-    localStorage.clear();
-    store.dispatch(logoutUser());
+    if (loginState) {
+      localStorage.clear();
+      store.dispatch(logoutUser());
+    }
   }, []);
 
   const isValidate = () => {
@@ -62,7 +65,9 @@ const Login = () => {
         <div className="p-10 xs:p-0 mx-auto md:w-full md:max-w-md">
           <div className="bg-dark border border-gray-600 shadow w-full rounded-lg divide-y divide-gray-200">
             <form className="px-5 py-7" onSubmit={proceedLogin}>
-              <label className="font-semibold text-sm pb-1 block text-accent-content">E-mail</label>
+              <label className="font-semibold text-sm pb-1 block text-accent-content">
+                E-mail
+              </label>
               <input
                 value={email}
                 required={true}
@@ -103,7 +108,11 @@ const Login = () => {
             </form>
           </div>
           <div className="py-5 text-center">
-            <Link to="/register" className="btn btn-neutral text-white" onClick={() => window.scrollTo(0, 0)}>
+            <Link
+              to="/register"
+              className="btn btn-neutral text-white"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Don't have an account? Please register.
             </Link>
           </div>
