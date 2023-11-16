@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { SectionTitle } from "../components";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 const ThankYou = () => {
   const { cartItems } = useSelector((state) => state.cart);
-  console.log(cartItems);
+  const loginState = useSelector((state) => state.auth.isLoggedIn);
+  const navigate = useNavigate();
 
   const saveToOrderHistory = async () => {
     try {
-      const response = await axios.post("http://localhost:8080/orders", {userId: localStorage.getItem("id"), cartItems: cartItems});
+      const response = await axios.post("http://localhost:8080/orders", {
+        userId: localStorage.getItem("id"),
+        orderStatus: "in progress",
+        cartItems: cartItems,
+      });
     } catch (err) {
       console.log(err.response);
     }
@@ -19,6 +25,14 @@ const ThankYou = () => {
   if (cartItems.length > 0) {
     saveToOrderHistory();
   }
+
+  useEffect(() => {
+    if (!loginState) {
+      toast.error("You must be logged in to access this page");
+      navigate("/");
+    }
+  }, []);
+
 
   return (
     <>

@@ -8436,59 +8436,43 @@
   "orders": [
     {
       "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
       "cartItems": [
         {
-          "id": 204453531,
+          "id": "204453531M",
           "title": "AAPE By A Bathing Ape baseball t-shirt in black",
           "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
           "rating": 4,
           "price": 69,
           "brandName": "AAPE BY A BATHING APE®",
           "amount": 3,
-          "selectedSize": "XS",
-          "isInWishList": false
-        }
-      ],
-      "id": 1
-    },
-    {
-      "userId": "UIJrEcYfkKo3wKOni2t9Q",
-      "cartItems": [
-        {
-          "id": 204453531,
-          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
-          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
-          "rating": 4,
-          "price": 69,
-          "brandName": "AAPE BY A BATHING APE®",
-          "amount": 3,
-          "selectedSize": "XS",
-          "isInWishList": false
-        },
-        {
-          "id": "205002072M",
-          "title": "ASOS DESIGN heeled chelsea boots in snake print faux leather",
-          "image": "images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
-          "rating": 5,
-          "price": 99.99,
-          "brandName": "ASOS DESIGN",
-          "amount": 4,
           "selectedSize": "M",
           "isInWishList": false
         },
         {
-          "id": 204954181,
+          "id": "204954181L",
           "title": "ASOS DESIGN relaxed satin shirt in panther animal print",
           "image": "images.asos-media.com/products/asos-design-relaxed-satin-shirt-in-panther-animal-print/204954181-1-black",
           "rating": 5,
           "price": 42.99,
           "brandName": "ASOS DESIGN",
-          "amount": 4,
-          "selectedSize": "XS",
+          "amount": 3,
+          "selectedSize": "L",
+          "isInWishList": false
+        },
+        {
+          "id": "205361047XL",
+          "title": "Polo Ralph Lauren x ASOS Exclusive collab knit tank top with center logo in cream",
+          "image": "images.asos-media.com/products/polo-ralph-lauren-x-asos-exclusive-collab-knit-tank-top-with-center-logo-in-cream/205361047-1-cream",
+          "rating": 4,
+          "price": 125,
+          "brandName": "Polo Ralph Lauren",
+          "amount": 7,
+          "selectedSize": "XL",
           "isInWishList": false
         }
       ],
-      "id": 2
+      "id": 1
     }
   ]
 }
