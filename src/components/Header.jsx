@@ -174,6 +174,11 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/order-history" className="text-accent-content">
+                    Order history
+                  </Link>
+                </li>
+                <li>
                   <Link to="/login" className="text-accent-content">
                     Logout
                   </Link>

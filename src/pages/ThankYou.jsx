@@ -15,10 +15,9 @@ const ThankYou = () => {
         </h3>
         <h3 className="text-2xl mt-5 max-sm:text-xl">Here are some things you can do next:</h3>
         <ul className="text-xl mt-5 text-blue-500 max-sm:text-lg">
-          <li className="hover:text-blue-600 cursor-pointer">&rarr; See order history &larr;</li>
+          <li className="hover:text-blue-600 cursor-pointer"><Link to="/order-history">&rarr; See order history &larr;</Link></li>
           <li className="hover:text-blue-600 cursor-pointer"><Link to="/">&rarr; Browse more product and buy more &larr;</Link></li>
           <li className="hover:text-blue-600 cursor-pointer">&rarr; Follow us on social media &larr;</li>
-          <li></li>
         </ul>
 
         <h4 className="text-xl mt-5 max-sm:text-lg">Thank you again for your purchase!</h4>

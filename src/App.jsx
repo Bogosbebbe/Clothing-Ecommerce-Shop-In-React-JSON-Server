@@ -12,7 +12,8 @@ import {
   Wishlist,
   Profile,
   Search,
-  ThankYou
+  ThankYou,
+  OrderHistory
 } from "./pages";
 import { landingLoader } from "./pages/Landing";
 import { singleProductLoader } from "./pages/SingleProduct";
@@ -79,6 +80,10 @@ const router = createBrowserRouter([
       {
         path:"thank-you",
         element: <ThankYou />
+      },
+      {
+        path:"order-history",
+        element: <OrderHistory />
       }
     ],
   },
