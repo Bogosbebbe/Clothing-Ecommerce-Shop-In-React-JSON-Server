@@ -8391,22 +8391,12 @@
   ],
   "user": [
     {
-      "id": "UIJrEcYfkKo3wKOni2t9Q",
-      "name": "Kuzma",
+      "id": "EDVYu6rC_G9SL9Z7-H9tr",
+      "name": "Aleksandar",
       "lastname": "Kuzmanovic",
       "email": "kuzma@gmail.com",
-      "phone": "061 1233321",
-      "adress": "Marka Markovica 100",
-      "password": "1233214321",
-      "userWishlist": []
-    },
-    {
-      "id": "UClll_XZPf2tgJKQMehI6",
-      "name": "Marko",
-      "lastname": "Markovic",
-      "email": "marko@gmail.com",
-      "phone": "061123321",
-      "adress": "Aleksa Aleksica 22",
+      "phone": "061123231",
+      "adress": "Marka Markovica 252",
       "password": "1233214321",
       "userWishlist": [
         {
@@ -8589,6 +8579,25 @@
         }
       ],
       "id": 7
+    },
+    {
+      "userId": "EDVYu6rC_G9SL9Z7-H9tr",
+      "orderStatus": "in progress",
+      "subtotal": 69,
+      "cartItems": [
+        {
+          "id": 204453531,
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": true
+        }
+      ],
+      "id": 8
     }
   ]
 }

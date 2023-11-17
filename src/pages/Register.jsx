@@ -54,6 +54,7 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     let regObj = {
       id: nanoid(),
       name,
@@ -62,7 +63,7 @@ const Register = () => {
       phone,
       adress,
       password,
-      userWishlist: []
+      userWishlist: [],
     };
 
     if (isValidate()) {
@@ -180,7 +181,11 @@ const Register = () => {
             </form>
           </div>
           <div className="py-5 text-center">
-            <Link to="/login" className="btn btn-neutral text-white" onClick={() => window.scrollTo(0, 0)}>
+            <Link
+              to="/login"
+              className="btn btn-neutral text-white"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Already have an account? Please login.
             </Link>
           </div>
