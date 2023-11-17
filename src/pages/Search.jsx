@@ -24,7 +24,6 @@ const Search = () => {
   };
 
   const handleSearchPagination = async () => {
-    console.log("current page: ",currentPage);
     try {
         const response = await axios(
           `http://localhost:8080/products?q=${searchTerm}&&_page=${currentPage}`

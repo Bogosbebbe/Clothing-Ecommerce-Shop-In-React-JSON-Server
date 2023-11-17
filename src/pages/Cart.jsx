@@ -1,11 +1,22 @@
 import React from 'react'
 import { CartItemsList, CartTotals, SectionTitle } from '../components'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { toast } from 'react-toastify';
 
 const Cart = () => {
   
+  const navigate = useNavigate();
   const loginState = useSelector((state) => state.auth.isLoggedIn);
+  const { cartItems } = useSelector((state) => state.cart);
+
+  const isCartEmpty = () => {
+    if(cartItems.length === 0){
+      toast.error("Your cart is empty");
+    }else{
+      navigate("/thank-you");
+    }
+  }
 
   return (
     <>
@@ -17,9 +28,9 @@ const Cart = () => {
         <div className='lg:col-span-4 lg:pl-4'>
           <CartTotals />
           {loginState ? (
-            <Link to='/thank-you' className='btn bg-blue-600 hover:bg-blue-500 text-white btn-block mt-8'>
+            <button onClick={isCartEmpty} className='btn bg-blue-600 hover:bg-blue-500 text-white btn-block mt-8'>
               order now
-            </Link>
+            </button>
           ) : (
             <Link to='/login' className='btn bg-blue-600 hover:bg-blue-500 btn-block text-white mt-8'>
               please login

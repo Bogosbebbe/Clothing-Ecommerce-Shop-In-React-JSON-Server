@@ -18,7 +18,7 @@ const authSlice = createSlice({
     logoutUser: (state) => {
       state.isLoggedIn = false;
       state.userId = false;
-      toast.error("You have successfuly logout");
+      toast.success("You have successfuly logout");
     },
     changeMode: (state) => {
       state.darkMode = !state.darkMode;

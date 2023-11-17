@@ -20,9 +20,8 @@ const OrderHistory = () => {
       setOrders(
         data.filter((order) => order.userId === localStorage.getItem("id"))
       );
-      console.log(data);
     } catch (error) {
-      console.log(error.response);
+      toast.error(error.response);
     }
   };
 

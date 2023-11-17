@@ -8392,7 +8392,7 @@
   "user": [
     {
       "id": "UIJrEcYfkKo3wKOni2t9Q",
-      "name": "Aleksandar",
+      "name": "Kuzma",
       "lastname": "Kuzmanovic",
       "email": "kuzma@gmail.com",
       "phone": "061 1233321",
@@ -8414,16 +8414,6 @@
           "title": "AAPE By A Bathing Ape baseball t-shirt in black",
           "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
           "rating": 4,
-          "reviews": [
-            {
-              "username": "Darron Miloscia",
-              "location": "United Kingdom",
-              "rating": 4,
-              "reviewTitle": "Thinking to buy another one!",
-              "reviewText": "This is my third Invicta Pro Diver. They are just fantastic value for money. This one arrived yesterday and the first thing I did was set the time, popped on an identical strap from another Invicta and went in the shower with it to test the waterproofing.... No problems.It is obviously not the same build quality as those very expensive watches. But that is like comparing a Citroën to a Ferrari. This watch was well under £100! An absolute bargain.",
-              "date": "March 3, 2017"
-            }
-          ],
           "price": 69,
           "brandName": "AAPE BY A BATHING APE®",
           "amount": 1,
@@ -8561,6 +8551,44 @@
         }
       ],
       "id": 5
+    },
+    {
+      "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
+      "subtotal": 690,
+      "cartItems": [
+        {
+          "id": "204453531M",
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 10,
+          "selectedSize": "M",
+          "isInWishList": false
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
+      "subtotal": 69,
+      "cartItems": [
+        {
+          "id": 204453531,
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": false
+        }
+      ],
+      "id": 7
     }
   ]
 }
