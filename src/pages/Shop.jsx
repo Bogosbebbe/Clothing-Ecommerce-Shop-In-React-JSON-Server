@@ -30,7 +30,7 @@ export const shopLoader = async ({ request }) => {
   const filterObj = {
     brand: params.brand ?? "all",
     category: params.category ?? "all",
-    date:  mydate || new Date('05 October 2010 14:48 UTC').toISOString(), // nisam jos dodao u filter
+    date:  mydate || new Date('05 October 2010 14:48 UTC').toISOString(), 
     gender: params.gender ?? "all",
     order: params.order ?? "asc",
     price: params.price ?? 2000,

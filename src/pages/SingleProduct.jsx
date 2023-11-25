@@ -73,7 +73,7 @@ const SingleProduct = () => {
       );
       const userObj = getResponse.data;
 
-      // Ensure userWishlist is initialized as an array
+      
       userObj.userWishlist = userObj.userWishlist || [];
 
       userObj.userWishlist.push(product);
@@ -83,7 +83,7 @@ const SingleProduct = () => {
         userObj
       );
 
-      // Dispatch the addToWishlist action with the product data
+      
       store.dispatch(updateWishlist({ userObj }));
       toast.success("Product added to the wishlist!");
     } catch (error) {
@@ -110,7 +110,7 @@ const SingleProduct = () => {
       userObj
     );
 
-    // Dispatch the addToWishlist action with the product data
+    
     store.dispatch(removeFromWishlist({ userObj }));
     toast.success("Product removed from the wishlist!");
   };

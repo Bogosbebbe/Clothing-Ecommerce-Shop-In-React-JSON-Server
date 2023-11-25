@@ -8409,6 +8409,28 @@
           "amount": 1,
           "selectedSize": "XS",
           "isInWishList": false
+        },
+        {
+          "id": 205002072,
+          "title": "ASOS DESIGN heeled chelsea boots in snake print faux leather",
+          "image": "images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
+          "rating": 5,
+          "price": 99.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": false
+        },
+        {
+          "id": 204954181,
+          "title": "ASOS DESIGN relaxed satin shirt in panther animal print",
+          "image": "images.asos-media.com/products/asos-design-relaxed-satin-shirt-in-panther-animal-print/204954181-1-black",
+          "rating": 5,
+          "price": 42.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": false
         }
       ]
     }
