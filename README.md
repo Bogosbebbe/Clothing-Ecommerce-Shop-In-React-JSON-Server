@@ -3,7 +3,8 @@
 # Instructions
 1. When you download the project. You need first to open the first terminal and write: npm install
 2. After that in the same terminal write: npm run dev
-3. When you do it, you need to open second terminal and run JSON server on port 8080. Just write in the second terminal: json-server --watch src/data/db.json --port 8080
+3. The third step is mandatory if you don't have json-server installed on your computer. Open a second terminal write the following: npm install -g json-server
+4. When you do it, you need to open second terminal and run JSON server on port 8080. Just write in the second terminal: json-server --watch src/data/db.json --port 8080
 
 # Project Description
 This is the project I have made completely alone with my current React.js skills. I created this project for my college exam and also because I wanted to test my current web development skills. Kuzma Clothing & Shoes is an innovative e-commerce platform offering a diverse range of clothing and footwear. With a catalog of over a hundred products, our online shop is designed to cater to the varied tastes and preferences of our customers. The website is equipped with user-friendly features to ensure a seamless shopping experience.
