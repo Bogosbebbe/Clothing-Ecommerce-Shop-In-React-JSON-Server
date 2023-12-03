@@ -1,7 +1,7 @@
 # Kuzma Clothing & Shoes
 
 # Instructions
-1. To run the app you first need to install Node.js and npm on your computer. Here is the link where you can install it: https://nodejs.org/en
+1. To run the app you first need to downlod and install Node.js and npm on your computer. When you download them you need to configure path variables. Here is the link where you can install them: https://nodejs.org/en
 2. When you install Node.js and npm on your computer you need to download the project. When you download the project, you need first to open the first terminal and write: npm install
 3. After that in the same terminal write: npm run dev
 4. The third step is mandatory if you don't have json-server installed on your computer. Open a second terminal write the following: npm install -g json-server
